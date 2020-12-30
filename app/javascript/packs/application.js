@@ -7,12 +7,17 @@ require("@rails/ujs").start()
 require("turbolinks").start()
 require("@rails/activestorage").start()
 require("channels")
+import 'sweetalert';
 import 'bootstrap';
 import { initUpdateNavbarOnScroll } from '../components/navbar';
 import { loadDynamicBannerText } from '../components/banner';
+import { changePlaceholder } from "./search";
+import { initSweetalert } from "./init_sweetalert";
 document.addEventListener('turbolinks:load', () => {
   initUpdateNavbarOnScroll();
   loadDynamicBannerText();
+  changePlaceholder();
+  initSweetalert();  
 });
 
 // Uncomment to copy all static images under ../images to the output folder and reference
