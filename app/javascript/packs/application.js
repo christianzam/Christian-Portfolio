@@ -15,13 +15,11 @@ import 'bootstrap';
 
 
 import { initUpdateNavbarOnScroll } from '../components/navbar';
-import { loadDynamicBannerText } from '../components/banner';
-import { changePlaceholder } from "./search";
+import { loadDynamicText } from '../components/dinamic_text';
 import { initSweetalert } from "./init_sweetalert";
 document.addEventListener('turbolinks:load', () => {
   initUpdateNavbarOnScroll();
-  loadDynamicBannerText();
-  changePlaceholder();
+  loadDynamicText();
   initSweetalert();  
 });
 

@@ -1,6 +1,8 @@
 <div class="navbar navbar-expand-sm navbar-light navbar-lewagon fixed-top">
   <%= link_to "#", class: "navbar-brand" do %>
-    <h1>SUPER PROFILE</h1>
+    <h1>
+      <span id="nav-typed-text"></span>
+    </h1>
   <% end %>
 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -11,17 +13,9 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
     
-      <div class= "search row align-right" >
-         <div class="search-container">
-          <i class="fas fa-search"></i>
-            <%= text_field_tag :query,
-              params[:query],
-              class: "form-control",
-              id: "search-field",
-              placeholder: "search for clubs"
-            %>
-        </div>
-      </div>    
+      <%# <div class= "search row align-right" > %>
+         
+      <%# </div>     %>
 
       <li class="nav-item">
         <%= link_to "Home", "#", class: "nav-link" %>
