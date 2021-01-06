@@ -1,5 +1,5 @@
 .navbar{
-  height: 100px;
+  height: 70px;
   justify-content: space-between;
   background-color: transparent;
   transition: 1.5s background-color ease;  
@@ -12,16 +12,11 @@
   .navbar-black {
     background-color: black;
   }
-
-  .navbar-title {
-    font-family: $titles;
-    font-size: 43px;
-    color: gray;
-  }
   
   .navbar-links {
     font-family: $links;
-    font-size: 17px;
+    font-size: 20px;
+    font-weight: 500;
     margin-right: 70px;
     margin-left: 15px;
   }

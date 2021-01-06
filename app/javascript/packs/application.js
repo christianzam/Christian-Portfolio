@@ -17,13 +17,14 @@ import 'bootstrap';
 import { initUpdateNavbarOnScroll } from '../components/navbar';
 import { loadDynamicText } from '../components/dynamic_text';
 import { loadDynamicText2 } from '../components/dynamic_text2';
-import { initSweetalert } from "./init_sweetalert";
-
+import { initSweetalert } from "../packs/init_sweetalert";
+import { transformText } from "../packs/about_myself";
 document.addEventListener('turbolinks:load', () => {
   initUpdateNavbarOnScroll();
   loadDynamicText();
   loadDynamicText2();
-  initSweetalert();  
+  initSweetalert();
+  transformText();   
 });
 
 // Uncomment to copy all static images under ../images to the output folder and reference
