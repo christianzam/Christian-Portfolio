@@ -12,23 +12,22 @@ import 'sweetalert';
 import 'sweetalert2';
 import 'bootstrap';
 
-
-
+//import { animationAboutMyself } from "../packs/animation_about_myself";
+//import { transformText } from "../packs/transform_text";
 import { initUpdateNavbarOnScroll } from '../components/navbar';
 import { loadDynamicText } from '../components/dynamic_text';
 import { loadDynamicText2 } from '../components/dynamic_text2';
 import { initSweetalert } from "../packs/init_sweetalert";
-//import { transformText } from "../packs/transform_text";
-import { moveContainer } from "../packs/animation";
-
+import { buttonClick } from "../packs/button_click";
 
 document.addEventListener('turbolinks:load', () => {
+  //transformText();
+  //animationAboutMyself();
   initUpdateNavbarOnScroll();
   loadDynamicText();
   loadDynamicText2();
   initSweetalert();
- //transformText();
-  moveContainer();
+  buttonClick();
 
 });
 

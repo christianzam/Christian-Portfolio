@@ -1,22 +1,11 @@
+// NOTE: USE WHEN NEEDED TO SHOW TRANSFORM WITH HOVER
+
 const transformText = () => {
   const bannerText = document.querySelector("#about-myself");
-    bannerText.addEventListener("click", () => {
-      console.log("you have clicked")
+    bannerText.addEventListener("mouseover", () => {
+      console.log("you have hovered")
       bannerText.classList.toggle("myself-text")
     });
 };
 
 export { transformText };
-
-/*
-const changePlaceholder = () => {
-  const input = document.getElementById("about-myself");
-  window.addEventListener("load", () => {
-    input.value = "";
-  });
-};
-
-
-export { changePlaceholder };
-
-*/
