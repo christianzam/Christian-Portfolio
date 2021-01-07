@@ -1,15 +1,27 @@
 .about-text {
   font-family: $titles;
   font-size: 45px;
-  font-weight: 700;
-  transition: all 0.5s ease-in-out;
+  font-weight: 400;
   color: white;
-  &:hover {
-    cursor: pointer;
-    color: yellow;
-  }
 }
 
-.circle {
-  border-radius: 50%;
+
+#myDIV {
+  margin: 25px;
+  width: 550px;
+  height: 100px;
+  background: orange;
+  position: relative;
+  font-size: 20px;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+  from {top: 0px;}
+  to {top: 200px;}
+}
+
+@keyframes mymove {
+  from {top: 0px;}
+  to {top: 200px;}
 }

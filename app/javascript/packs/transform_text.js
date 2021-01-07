@@ -1,8 +1,8 @@
 const transformText = () => {
-  const img = document.querySelector("#about-myself");
-    img.addEventListener("mouseover", () => {
-      console.log("you have hoevered")
-      img.classList.toggle("about-text")
+  const bannerText = document.querySelector("#about-myself");
+    bannerText.addEventListener("click", () => {
+      console.log("you have clicked")
+      bannerText.classList.toggle("myself-text")
     });
 };
 
