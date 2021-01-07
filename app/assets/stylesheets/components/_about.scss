@@ -3,7 +3,7 @@
   display: inline-block;
 }
 
-.dot {
+.about-text {
   position: relative;
   font-size: 40px;
   font-family: $titles;
@@ -14,12 +14,17 @@
   //border-radius: 10px;
 }
 
-.dot:hover {
-  background-color: #eee;
+.about-text:hover {
+  font-size: 45px;
+  transition: all 0.5s ease-in-out;
+  color: yellow;
+  cursor: default;
 }
 
-#target {
-  position: relative;
+@-webkit-keyframes down {
+  0% { top: 0px; }
+  50% { top: 200px; }
+  100% { top: 0px; }
 }
 .animate {
   -webkit-animation: down 5s;
@@ -27,13 +32,10 @@
   -webkit-animation-iteration-count: 1;
   -moz-animation-iteration-count: 1;
 }
-@-webkit-keyframes down {
-    0% { top: 0px; }
-   50% { top: 40px; }
-  100% { top: 0px; }
-}
+
+
 @-moz-keyframes down {
     0% { top: 0px; }
-   50% { top: 40px; }
+   50% { top: 200px; }
   100% { top: 0px; }
 }
