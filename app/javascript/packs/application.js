@@ -18,7 +18,7 @@ import { initUpdateNavbarOnScroll } from '../components/navbar';
 import { loadDynamicText } from '../components/dynamic_text';
 import { loadDynamicText2 } from '../components/dynamic_text2';
 import { initSweetalert } from "../packs/init_sweetalert";
-import { transformText } from "../packs/transform_text";
+//import { transformText } from "../packs/transform_text";
 import { moveContainer } from "../packs/animation";
 
 
@@ -27,7 +27,7 @@ document.addEventListener('turbolinks:load', () => {
   loadDynamicText();
   loadDynamicText2();
   initSweetalert();
-  transformText();
+ //transformText();
   moveContainer();
 
 });

@@ -1,19 +1,19 @@
 .about-text {
-  font-family: $titles;
-  font-size: 45px;
-  font-weight: 400;
-  color: white;
+  color: green;
 }
 
 
 #myDIV {
-  margin: 25px;
-  width: 550px;
-  height: 100px;
-  background: orange;
   position: relative;
-  font-size: 20px;
+  font-size: 40px;
+  font-family: $titles;
+  &:hover {
+    color: yellow;
+    transition-duration: 0.3s;
+    cursor: pointer;
+  }
 }
+
 
 /* Chrome, Safari, Opera */
 @-webkit-keyframes mymove {
@@ -24,4 +24,47 @@
 @keyframes mymove {
   from {top: 0px;}
   to {top: 200px;}
+}
+
+
+#target {
+  position: relative;
+}
+.animate {
+  -webkit-animation: down 5s;
+  -moz-animation: down 5s;
+  -webkit-animation-iteration-count: 1;
+  -moz-animation-iteration-count: 1;
+}
+@-webkit-keyframes down {
+    0% { top: 0px; }
+   50% { top: 40px; }
+  100% { top: 0px; }
+}
+@-moz-keyframes down {
+    0% { top: 0px; }
+   50% { top: 40px; }
+  100% { top: 0px; }
+}
+
+.button {
+  background-color: #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  display: inline-block;
+  font-family: sans-serif;
+}
+.button:hover {
+  background-color: #eee;
+}
+.dot {
+  display: inline-block;
+  background-color: red;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+}
+.button, .dot {
+  vertical-align: middle;
 }
