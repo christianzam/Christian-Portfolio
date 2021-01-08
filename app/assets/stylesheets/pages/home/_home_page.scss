@@ -22,20 +22,25 @@
 
 .line {
   //position: fixed;
+  margin-left: 43%;
   opacity: 30%;
   border-top: white 0.5px solid;
   width: 452px;  
 }
 
-.about-myself {
-
-  margin-right: 10%;
+.about-myself:after {
+  content: "ABOUT";
   font-family: $paragraphs;
   font-size: 60px;
   color: white;
-  &:hover {
-    color: yellow;
-    cursor: default;
-    transition-duration: 3ms;
-  }
+}
+
+
+.about-myself:hover:after{
+  content:'🔻 MYSELF';
+  //margin-right: 10%;
+  font-family: $paragraphs;
+  font-size: 60px;
+  color: yellow;
+  cursor: pointer;
 }
