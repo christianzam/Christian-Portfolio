@@ -37,10 +37,53 @@
 
 
 .about-myself:hover:after{
-  content:'🔻 MYSELF';
+  content: 'MYSELF';
   //margin-right: 10%;
   font-family: $paragraphs;
   font-size: 60px;
   color: yellow;
   cursor: pointer;
+}
+
+// ------ANIMATION CSS-----------------------------------------------------------
+
+.button {
+  background-color: transparent;
+  display: inline-block;
+}
+
+.about-text {
+  position: relative;
+  font-size: 60px;
+  font-family: $paragraphs;
+}
+
+
+/*
+.about-text:hover {
+  font-size: 45px;
+  transition: all 0.5s ease-in-out;
+  color: yellow;
+  cursor: default;
+}
+*/
+
+@-webkit-keyframes down {
+  0% { top: 0px; }
+  50% { top: 200px; }
+  100% { top: 0px; }
+}
+
+.animate {
+  -webkit-animation: down 5s;
+  -moz-animation: down 5s;
+  -webkit-animation-iteration-count: 1;
+  -moz-animation-iteration-count: 1;
+}
+
+
+@-moz-keyframes down {
+    0% { top: 0px; }
+   50% { top: 200px; }
+  100% { top: 0px; }
 }
