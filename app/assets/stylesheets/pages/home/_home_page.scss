@@ -1,10 +1,41 @@
 .home-banner {
-  //background-image: url('https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80');
   background-color: black;
   background-size: cover;
   height: 100vh;
   color: #eee;
-  text-align: center;
-  padding-top: 40vh;
+  //text-align: center;
+  padding-top: 20vh;
+  padding-left: 0%;
 }
 
+.banner-paragraph {
+  font-family: $paragraphs;
+  font-size: 40px;
+  line-height: 40px;
+  margin-left: 30px;
+  margin-top: 10px;
+  height: 170px;
+  width: 590px;
+
+  border-right: 1.1rem solid;
+}
+
+.line {
+  //position: fixed;
+  opacity: 30%;
+  border-top: white 0.5px solid;
+  width: 452px;  
+}
+
+.about-myself {
+
+  margin-right: 10%;
+  font-family: $paragraphs;
+  font-size: 60px;
+  color: white;
+  &:hover {
+    color: yellow;
+    cursor: default;
+    transition-duration: 3ms;
+  }
+}
