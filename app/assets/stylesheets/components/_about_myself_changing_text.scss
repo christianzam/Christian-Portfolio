@@ -1,0 +1,22 @@
+.label:after {
+  content:'ABOUT';
+  font-size: 40px;
+  font-family: $titles;
+}
+
+.label:hover:after{
+  content:'MYSELF';
+  font-size: 40px;
+  color: white;
+  cursor: pointer;
+}
+
+// transition: all 0.5s ease-in-out;
+
+/*
+-------HTML----------
+ <div class="justify-content-center">
+      <%= link_to "", "#", class: "label"%>
+ </div>
+
+*/

@@ -8,19 +8,21 @@
 @import "font-awesome-sprockets";
 @import "font-awesome";
 
-// Your CSS partials
+// CSS partials
 @import "components/index";
 @import "pages/index";
 
+// Site Style 
+
 a {
   font-family: $links;
-  color: 00b4d8;
 }
 
 a:hover {
   text-decoration: none;
   color: white;
 }
+
 .site {
   display: flex;
   min-height: 100vh;

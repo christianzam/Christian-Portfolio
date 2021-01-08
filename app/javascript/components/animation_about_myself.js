@@ -1,4 +1,7 @@
-/* CSS 
+/*  THIS ANIMATION MOVES VERTICALLY CHANGING TEXT EVERY CYCLE
+
+
+------CSS-------- 
 #myDIV {
   position: relative;
   font-size: 40px;
@@ -21,10 +24,11 @@
   to {top: 200px;}
 }
 
+// ----------HTML-----------------
 // add the below to home.html.erb
 // <div id="myDIV" class="myFunction">ABOUT</div>
-
 */
+
 const animationAboutMyself = () => {
     
   const x = document.getElementById("myDIV");
