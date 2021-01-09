@@ -12,15 +12,22 @@
 @import "components/index";
 @import "pages/index";
 
+
 // Site Style 
 
 a {
   font-family: $links;
+  color: 0094c6;
 }
 
 a:hover {
   text-decoration: none;
-  color: white;
+  //color: white;
+}
+
+p {
+  font-family: $paragraphs;
+  font-size: 25px;
 }
 
 .site {

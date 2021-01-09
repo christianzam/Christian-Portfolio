@@ -4,8 +4,8 @@
   height: 100vh;
   color: #eee;
   //text-align: center;
-  padding-top: 20vh;
-  padding-left: 0%;
+  padding-top: 40vh;
+  margin-bottom: 30vh;
 }
 
 .banner-paragraph {
@@ -47,10 +47,7 @@
 
 // ------ANIMATION CSS-----------------------------------------------------------
 
-.button {
-  background-color: transparent;
-  display: inline-block;
-}
+
 
 .about-text {
   position: relative;
@@ -58,32 +55,22 @@
   font-family: $paragraphs;
 }
 
-
-/*
-.about-text:hover {
-  font-size: 45px;
-  transition: all 0.5s ease-in-out;
-  color: yellow;
-  cursor: default;
-}
-*/
-
 @-webkit-keyframes down {
   0% { top: 0px; }
-  50% { top: 200px; }
+  50% { top: 100px; }
   100% { top: 0px; }
 }
 
 .animate {
-  -webkit-animation: down 5s;
-  -moz-animation: down 5s;
-  -webkit-animation-iteration-count: 1;
-  -moz-animation-iteration-count: 1;
+  -webkit-animation: down 2s;
+  -moz-animation: down 2s;
+  -webkit-animation-iteration-count: 2;
+  -moz-animation-iteration-count: 2;
 }
 
 
 @-moz-keyframes down {
     0% { top: 0px; }
-   50% { top: 200px; }
+   50% { top: 350px; }
   100% { top: 0px; }
 }
