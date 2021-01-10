@@ -74,3 +74,21 @@
    50% { top: 350px; }
   100% { top: 0px; }
 }
+
+//----------IMAGE-------------------
+
+.chris-pic {
+max-width:100%;
+height:auto;
+image-rendering: auto;
+}
+
+.div {
+width: 100%;
+height: 550px;
+background-image: url('chris.jpg');
+background-repeat: no-repeat;
+background-size: contain;
+border-radius: 20px;
+align-items: center;
+}

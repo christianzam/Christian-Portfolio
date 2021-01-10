@@ -5,7 +5,7 @@ const dynamicTextTypedJS2 = () => {
     strings: ["<span style= 'color:white'> ^5000 Christian<span style='color:white'>Z<span style='color:yellow'>am<span style='color:white'>ora</span></span></span></span>"],
     typeSpeed: 110,
     startDelay: 400,
-    loop: false, 
+    loop: false,
   }); 
 }
 
