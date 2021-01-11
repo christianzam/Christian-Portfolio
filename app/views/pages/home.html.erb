@@ -17,62 +17,56 @@
   </div> 
 </div>
 <%# -------------------------- CONTENT --------------------------------------------- %>
-<div class="container">
-  <div class="row">
-    <div class="col-sm-6">
-      <div class="div">
-        <%# <%= image_tag("chris.jpg", height: 500, width: 340, alt: "upload") %>
-      </div>
-    </div>
-    <div class="col-sm">
-      <p class="text-left">
-        I am a highly motivated Full Stack Developer 
-        profit-driven and results-orientated.
-        Having an excellent track record of successful achievements delivered on time and within budget in my previous career as a food and retail manager I can prove vast strategic planning and exceptional organisational skills. 
-        <br>
-        <br>
-        <strong>Definitely </strong>a dynamic team player able to adapt to all levels within any organisation, I am someone who embraces challenge and self-improvement
-        <br>
-        <br>
-        <strong>I like</strong> – <%= "challenge myself" *5 %> 
-        <br>
-        <br>
-        <strong> My ambitions</strong> – <%= "become a great developer" *5 %> 
-      </p>
-    </div>
+<div class="first-container-home-content">
+
+  <div class="chris-pic">
+    <%= image_tag("chris.jpg", height: 500, width: 340, :class => "chris-pic-border", alt: "upload") %>
   </div>
-</div>
-<br>
-<div class="container">
-  <div class="row">
-    <div class="col-sm">
-      <p class="text-left">
-        Some activities I enjoy:
-        <ul>
-          <p>
-          <li>Tennis
-          <li>Cycling
-          <li>Ice Hockey
-          <li>Landboarding
-          </p>
-        </ul>
-        <br>
-    </div>
-    
-    <div class="col-sm">
-      <div class="bd-highlight tutorial-box-video">
-        <iframe width="600" height="300"
-          src="https://www.youtube.com/embed/o1tj2zJ2Wvg"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen>
-        </iframe>
-      </div>
-    </div>
+  <div class="chris-paragraph">
+    <p class="text-left">
+      More of the human side
+      <br>
+      I am a highly motivated Full Stack Developer 
+      profit-driven and results-orientated.
+      Having an excellent track record of successful achievements delivered on time and within budget in my previous career as a food and retail manager I can prove vast strategic planning and exceptional organisational skills. 
+      <br>
+      <br>
+      <strong>Definitely </strong>a dynamic team player able to adapt to all levels within any organisation, I am someone who embraces challenge and self-improvement
+      <br>
+      <br>
+      <strong>I like</strong> – <%= "challenge myself" *5 %> 
+      <br>
+      <br>
+      <strong> My ambitions</strong> – <%= "become a great developer" *5 %> 
+    </p>
   </div>
 </div>
 
+<%# --------------------------------2nd container---------------- %>
+
+<div class="second-container-home-content">
+
+  <div class="second-paragraph">
+    <p class="text-left">
+      Some activities I enjoy:
+      <ul class="text-left">
+        <p>
+        <li>Tennis
+        <li>Cycling
+        <li>Ice Hockey
+        <li>Landboarding
+        </p>
+      </ul>
+    </p>
+  </div>
     
+  <div class="second-pic">
+    <iframe width="600" height="300"
+      src="https://www.youtube.com/embed/o1tj2zJ2Wvg"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen>
+    </iframe>
   </div>
 </div>
 
