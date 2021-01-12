@@ -78,7 +78,7 @@
 .first-container-home-content {
   background-color: $first-background;
   background-size: cover;
-  height: 100vh;
+  height: 75vh;
   position: relative;
   text-align: center;
   margin-bottom: 30vh;
@@ -123,39 +123,38 @@
 }
 
 .chris-paragraph-intro {
-  background-color: rgba(131, 131, 130, 0.205);
+  position: absolute;
+  background-color: rgba(131, 131, 130, 0.105);
   padding: 5% 5% 0% 2%;
   text-align: center;
-  text-align: justify;
+  //text-align: justify;
   width: 400px;
-  height: 230px;
-  border-top-right-radius: 8px;
-  border-top-left-radius: 8px;
-  margin-top: 0;
+  height: 280px;
+  border-radius: 2px;
 }
 
 .chris-paragraph-content {
-  background-color: rgba(3, 3, 0, 0.900);
-  width: 380px;
-  height: 100px;
-  padding: 5px 10px 10px 20px;
-  margin-top: 2px;
-  margin-left: 80px;
-  text-align: center;
-  text-align: justify;
+  position: relative;
+  top: 260px;
+  left: 65px;
+  background-color: rgba(3, 3, 0, 1);
+  width: 400px;
+  height: 150px;
+  border-radius: 2px;
+  padding: 5px 15px 15px 20px;
+  text-align: left;
   color: white;
 }
 
 .chris-paragraph-end {
-  background-color: rgba(131, 131, 130, 0.205);
-  padding: 5% 5% 0% 2%;
+  position: relative;
+  top: 200px;
+  background-color: rgba(255, 255, 255, 0.205);
+  padding: 10% 15% 0% 0%;
   text-align: center;
-  text-align: justify;
-  width: 430px;
-  height: 80px;
-  border-bottom-right-radius: 8px;
-  border-bottom-left-radius: 8px;
-  margin-top: 2px;
+  width: 400px;
+  height: 140px;
+  border-radius: 2px;
 }
 // ----------------------------------- Second Container----------
 
@@ -211,7 +210,7 @@
   border: rgba(128, 128, 128, 0.308) 1px solid;
   padding: 12% 5% 0% 5%;
   text-align: center;
-  text-align: justify;
+  //text-align: justify;
   color: white;
   width: 400px;
   height: 530px;
