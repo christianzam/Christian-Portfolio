@@ -1,7 +1,25 @@
+.chris-pic {
+  max-width:100%;
+  height:100vh;
+  image-rendering: auto;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 10%;
+  padding-bottom: 2%;
+}
+
+.chris-pic-border{
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgb(66, 66, 66);
+}
+
 .ski-pic {
   position: relative;
-  top: 20%;
-  left: 60%;
+  top: 18%;
+  left: 55%;
   width: 280px;
   height: 200px;
   border-top: white 10px solid;
@@ -14,8 +32,8 @@
 
 .bike-pic {
   position: relative;
-  top: 18%;
-  left: 66%;
+  top: 13%;
+  left: 65%;
   width: 280px;
   height: 240px;
   border-top: white 10px solid;
@@ -24,5 +42,19 @@
   border-left: white 8px solid;
   -ms-transform: rotate(8deg); /* IE 9 */
   transform: rotate(8deg);
+}
+
+.board-video {
+  position: absolute;
+  top: 61%;
+  left: 53%;
+  width: 280px;
+  height: 240px;
+  border-top: white 10px solid;
+  border-right: white 8px solid;
+  border-bottom: white 30px solid;
+  border-left: white 8px solid;
+  -ms-transform: rotate(-2deg); /* IE 9 */
+  transform: rotate(-2deg);
 }
 
