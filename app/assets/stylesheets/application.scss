@@ -30,6 +30,12 @@ p {
   font-size: 20px;
 }
 
+h1 {
+  font-family: $paragraphs;
+  font-size: 50px; 
+  font-weight: 700;
+}
+
 .site {
   display: flex;
   min-height: 100vh;
