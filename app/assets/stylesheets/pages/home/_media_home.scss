@@ -1,0 +1,28 @@
+.ski-pic {
+  position: relative;
+  top: 20%;
+  left: 60%;
+  width: 280px;
+  height: 200px;
+  border-top: white 10px solid;
+  border-right: white 8px solid;
+  border-bottom: white 30px solid;
+  border-left: white 8px solid;
+  -ms-transform: rotate(-8deg); /* IE 9 */
+  transform: rotate(-8deg);
+}
+
+.bike-pic {
+  position: relative;
+  top: 18%;
+  left: 66%;
+  width: 280px;
+  height: 240px;
+  border-top: white 10px solid;
+  border-right: white 8px solid;
+  border-bottom: white 30px solid;
+  border-left: white 8px solid;
+  -ms-transform: rotate(8deg); /* IE 9 */
+  transform: rotate(8deg);
+}
+
