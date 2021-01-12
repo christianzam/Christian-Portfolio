@@ -162,7 +162,7 @@
 .second-container-home-content {
   background-color: black;
   background-size: cover;
-  height: 100vh;
+  height: 140vh;
   position: relative;
   text-align: center;
   //margin-bottom: 30vh;
@@ -208,12 +208,13 @@
 
 .second-paragraph-intro {
   position: absolute;
-  border: gray 0.5px solid;
-  padding: 15% 5% 0% 2%;
+  border: rgba(128, 128, 128, 0.308) 1px solid;
+  padding: 12% 5% 0% 5%;
   text-align: center;
   text-align: justify;
+  color: white;
   width: 400px;
-  height: 330px;
+  height: 530px;
   border-top-right-radius: 8px;
   border-top-left-radius: 8px;
   margin-top: 0;
@@ -222,26 +223,26 @@
 
 .second-paragraph-content {
   position: relative;
-  background-color: gray;
+  background-color: rgb(184, 184, 184);
   width: 380px;
-  height: 100px;
+  height: 150px;
+  border-radius: 2px;
   padding: 5px 10px 10px 20px;
   top: 250px;
   margin-left: 80px;
   text-align: center;
-  text-align: justify;
-  color:black;
+  color: black;
 }
 
 .second-paragraph-end {
   position: relative;
-  background-color: rgba(255, 255, 255, 0.4);
-  padding: 5% 5% 0% 2%;
-  top: 240px;
-  text-align: center;
-  text-align: justify;
-  width: 430px;
-  height: 80px;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 4% 5% 0% 2%;
+  top: 200px;
+  left: 20px;
+  text-align: left;
+  width: 380px;
+  height: 130px;
   border-bottom-right-radius: 8px;
   border-bottom-left-radius: 8px;
   color: white;
