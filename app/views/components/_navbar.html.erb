@@ -1,5 +1,10 @@
-<nav class="navbar fixed-top d-flex justify-content-end">
-
+<nav class="navbar fixed-top">
+  <div class="d-flex">
+    <div class="navbar-links ml-3">
+      <%= link_to "", root_path, class: "fas fa-home" %>
+    </div>
+  </div>
+  <div class= "d-flex justify-content-end">
     <div class="navbar-links">
       <%= link_to "Projects", "#", class: "nav-link"%>
     </div>
@@ -11,5 +16,6 @@
           <%= link_to "LinkedIn", "https://www.linkedin.com/in/christian-zamora-burgos/", target: "_blank", class: "dropdown-item" %>
         </div>
     </div>
+  </div>
 </nav>
   
