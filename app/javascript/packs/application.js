@@ -15,7 +15,7 @@ import 'bootstrap';
 import { animationTopBottomButton } from "../components/animation_top_bottom_button";
 import { initUpdateNavbarOnScroll } from '../components/navbar';
 import { dynamicTextTypedJS } from '../components/dynamic_text_typed_js';
-import { dynamicTextTypedJS2 } from '../components/dynamic_text_typed_js_2';
+//import { dynamicTextTypedJS2 } from '../components/dynamic_text_typed_js_2';
 
 document.addEventListener('turbolinks:load', () => {
   //initSweetalert();
@@ -24,7 +24,7 @@ document.addEventListener('turbolinks:load', () => {
   animationTopBottomButton();
   initUpdateNavbarOnScroll();
   dynamicTextTypedJS();
-  dynamicTextTypedJS2();
+  //dynamicTextTypedJS2();
 });
 
 // Uncomment to copy all static images under ../images to the output folder and reference

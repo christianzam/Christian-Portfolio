@@ -1,27 +1,27 @@
-<div class="home-banner"> 
-  <div>    
-    <div class="banner-paragraph">
-      <span class="text-justify">A full stack developer who</span><span> enjoys building and designing   </span><span>Front</span><span style="color:yellow;"> & </span><span>Back-End applications</span>
+<div class="banner"> 
+  <div class="dynamic-text-container">
+      <div class="dynamic-text-font" id="nav-typed-text" style="display:inline"></div>
+      <div class="dynamic-text-font2" id="nav-typed-text2"style="display:inline"></div>
+  </div>
+  <div class="banner-paragraph">
+    <span class="text-justify">A full stack developer who</span><span> enjoys building and designing   </span><span>Front</span><span style="color:yellow;"> & </span><span>Back-End applications</span>
+  </div>
+  <div class="d-flex justify-content-end" id="word-about">
+    <div id="clicker" class="button">
+      <%= link_to '', "#{root_path}#bio", class: "about-myself" %> 
+      <%# <div class="about-myself"> %>
+        <%# <span id="target" class="about-text"><i class="fas fa-angle-double-down"></i></span>  %>
+      <%# </div> %>
     </div>
-    <div class="d-flex">
-      <div class="line"></div>
-      <div id="clicker" class="button">
-        <div class="about-myself">
-          <span id="target" class="about-text"><i class="fas fa-angle-double-down"></i></span>
-        </div>
-      </div>
-    </div>
-
-  </div> 
+  </div>
 </div>
 <%# -------------------------- CONTENT --------------------------------------------- %>
-<div class="first-container-home-content">
+<div class="first-container-home-content" id="bio"> 
   <div class="chris-pic">
    <%= image_tag("chris.jpg", height: 400, width: 280, :class => "chris-pic-border", alt: "upload") %>
-    <%# <img src= "https://images.unsplash.com/photo-1514192497895-875274f82835?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" height="400" width="280" class= "chris-pic-border" alt= "upload" /> %>
   </div>
   <div class="chris-paragraph-container">
-    <div class="text-left title-me"><br><br><br><br>What <br><br><br>&nbsp;about me?</div>
+    <div class="text-left title-me"><br><br><br><br>What <br><br><br>&nbsp;about me?</div>       
     <div class="chris-paragraph-intro">
       <p>
         I'm a highly motivated <strong>human</strong> being who genuinely values the little things in life. I enjoy building applications and 
@@ -71,11 +71,9 @@
     </div>
   </div>
       <div class="ski-pic">
-        <%# <img src= "https://images.unsplash.com/photo-1514192497895-875274f82835?ixlib=rb-1.21&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" height="170" width="265" alt= "upload" /> %>
       <%= image_tag("skiing.jpg", height: 170, width: 265, alt: "upload") %> 
       </div>
       <div class="bike-pic">
-        <%# <img src= "https://images.unsplash.com/photo-1514192497895-875274f82835?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" height="200" width="265" alt= "upload" /> %>
         <%= image_tag("mbike.jpg", height: 200, width: 265, alt: "upload") %>
       </div>
       <div class="board-video">

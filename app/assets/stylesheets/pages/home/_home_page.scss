@@ -1,9 +1,10 @@
-.home-banner {
+.banner {
   background-color: black;
   background-size: cover;
+  background-position: center;
   height: 100vh;
+  max-width: 100%;
   color: #eee;
-  //text-align: center;
   padding-top: 40vh;
   //margin-bottom: 30vh;
 }
@@ -12,21 +13,16 @@
   font-family: $paragraphs;
   font-size: 40px;
   line-height: 40px;
-  margin-left: 30px;
-  margin-top: 10px;
+  margin-left: 10%;
   height: 170px;
   width: 590px;
-
-  border-right: 1.1rem solid;
+  border-right: gray 0.1rem solid;
 }
 
-.line {
-  //position: fixed;
-  margin-left: 43%;
-  opacity: 30%;
-  border-top: white 0.5px solid;
-  width: 452px;  
+#word-about {
+  margin-right: 20%;
 }
+
 
 // ------ANIMATION CSS-----------------------------------------------------------
 
@@ -35,6 +31,8 @@
   font-family: $paragraphs;
   font-size: 60px;
   color: white;
+  transition-timing-function: ease-out;
+  transition-duration: 0.5s;
 }
 
 
@@ -45,6 +43,7 @@
   font-size: 60px;
   color: yellow;
   cursor: pointer;
+
 }
 
 .about-text {
@@ -53,24 +52,24 @@
   font-family: $paragraphs;
 }
 
-@-webkit-keyframes down {
-  0% { top: 0px; }
-  50% { top: 100px; }
-  100% { top: 0px; }
+@-webkit-keyframes right {
+  0% { right: 0px; }
+  50% { right: 100px; }
+  100% { right: 0px; }
 }
 
 .animate {
-  -webkit-animation: down 2s;
-  -moz-animation: down 2s;
+  -webkit-animation: right 2s;
+  -moz-animation: right 2s;
   -webkit-animation-iteration-count: 2;
   -moz-animation-iteration-count: 2;
 }
 
 
-@-moz-keyframes down {
-    0% { top: 0px; }
-   50% { top: 350px; }
-  100% { top: 0px; }
+@-moz-keyframes right {
+    0% { right: 0px; }
+   50% { right: 350px; }
+  100% { right: 0px; }
 }
 
 //----------CONTENT-------------------
@@ -95,8 +94,9 @@
 }
 
 .chris-paragraph-container {
-  height:auto;
   position: absolute;
+  height:auto;
+  max-width: 100%;
   top: 10%;
   left: 50%;
   padding-right: 5%;

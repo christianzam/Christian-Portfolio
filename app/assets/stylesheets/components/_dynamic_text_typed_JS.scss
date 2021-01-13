@@ -1,18 +1,30 @@
 .dynamic-text-font{
   font-family: $titles;
-  font-size: 40px;
-  padding-left: 10px;
+  font-size: 50px;
+  padding-left: 2%;
 }
 
 .dynamic-text-font2 {
   font-family: $titles;
-  font-size: 40px;
-  padding-left: 8px;
-  padding-right: 460px;
+  font-size: 50px;
+  padding-left: 2%;
+  padding-right: 15%;
+}
+
+.dynamic-text-container{
+  position: absolute;
+  top: 20%;
+  right: 20%;
+  left: 11%;
+  max-width: 100%;
+  background-color: transparent;
+  transition: 1.5s background-color ease;
 }
 
 
+
 /*
+
 @media screen and (max-width: 700px) {
   .dynamic-text-font.responsive {position: relative;}
 }
