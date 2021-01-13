@@ -18,6 +18,23 @@
     font-family: $links;
     font-size: 27px;
     font-weight: 500;
-    margin-right: 6%;
+    margin-right: 9%;
+    &:hover {
+      //transform: rotateY(360deg);
+      transition-duration: 0.3s;
+      transform: scale(1.5);
+      color: rgb(0, 225, 255);
+    }
   }
+
+  #dropdown-color {
+    background-color: black;
+  }
+
+  .dropdown-text {
+    font-family: $links;
+    color: rgb(28, 117, 250);
+  }
+
+
 
