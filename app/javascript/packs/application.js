@@ -10,20 +10,22 @@ import 'sweetalert2';
 import 'bootstrap';
 
 //import { initSweetalert } from "../packs/init_sweetalert";
-import { animationAboutMyself } from "../components/animation_about_myself";
+//import { animationAboutMyself } from "../components/animation_about_myself";
 //import { transformText } from "../components/transform_text";
 import { animationTopBottomButton } from "../components/animation_top_bottom_button";
 import { initUpdateNavbarOnScroll } from '../components/navbar';
 import { dynamicTextTypedJS } from '../components/dynamic_text_typed_js';
 //import { dynamicTextTypedJS2 } from '../components/dynamic_text_typed_js_2';
+import { movingArrows } from "../components/moving_arrows";
 
 document.addEventListener('turbolinks:load', () => {
   //initSweetalert();
   //transformText();
-  animationAboutMyself();
+  //animationAboutMyself();
   animationTopBottomButton();
   initUpdateNavbarOnScroll();
   dynamicTextTypedJS();
+  movingArrows();
   //dynamicTextTypedJS2();
 });
 

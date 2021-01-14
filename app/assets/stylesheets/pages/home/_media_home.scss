@@ -60,19 +60,26 @@
 
 .more-container {
   position: relative;
-  top: 93%;
-  left: 55%;
-  background-color: cadetblue;
+  top: 92%;
+  left: 50%;
   width: 40%;
   height: auto;
   
 }
 
+.more-text {
+  font-family: $paragraphs;
+  font-size: 50px;
+  padding-top: 7%;
+  margin-left: 15%;
+  margin-right: 2%;
+}
+
 .arrows {
   position: relative;
-  background-color: blueviolet;
-  width: 20%;
-  height: auto;
+  font-size: 120px;
+  font-family: $paragraphs;
+  padding-left: 2%;
 }
 
 #myDIV {
@@ -81,23 +88,25 @@
   font-family: $titles;
 }
 
-// Chrome, Safari, Opera 
-@-webkit-keyframes mymove {
-  0% { right: 0px; }
-  50% { right: 100px; }
-  100% { right: 0px; }
-}
 
 .mymove {
-  -webkit-animation: right 2s;
-  -moz-animation: right 2s;
+  -webkit-animation: down 2.5s;
+  -moz-animation: down 2.5s;
   -webkit-animation-iteration-count: 2;
   -moz-animation-iteration-count: 2;
 }
 
+/*Chrome, Safari, Opera 
+@-webkit-keyframes mymove {
+  0% { down: 0px; }
+  50% { down: 50px; }
+  100% { down: 0px; }
+}
+
 
 @-moz-keyframes mymove {
-    0% { right: 0px; }
-   50% { right: 100px; }
-  100% { right: 0px; }
+    0% { down: 0px; }
+   50% { down: 50px; }
+  100% { down: 0px; }
 }
+*/
