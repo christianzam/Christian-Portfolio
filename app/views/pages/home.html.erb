@@ -10,53 +10,63 @@
   <div class="d-flex justify-content-end" id="word-about">
     <div id="clicker" class="button"></div> <%# DO NOT REMOVE, js dynamic-text-depends on it %>       
       <%# <div class="about-myself"> %>
-        <%# <span id="target" class="about-text"><i class="fas fa-angle-double-down"></i></span>  // arrows animation has a dependency on div above%>
+        <%# <span id="target" class="about-text">
+              <i class="fas fa-angle-double-down"></i> // arrows animation has a dependency on div above%>
+        <%# </span>   %>
       <%# </div> %>
     <%= link_to '', "#{root_path}#bio", class: "about-myself" %>   
   </div>
 </div>
 <%# -------------------------- CONTENT --------------------------------------------- %>
 <div class="first-container-home-content" id="bio"> 
-  <div class="chris-pic">
-   <%= image_tag("chris.jpg", height: 400, width: 280, :class => "chris-pic-border", alt: "upload") %>
-  </div>
-  <div class="chris-paragraph-container">
-    <div class="text-left title-me"><br><br><br><br>What <br><br><br>&nbsp;about me?</div>       
-    <div class="chris-paragraph-intro">
-      <p>
-        I'm a highly motivated <strong>human</strong> being who genuinely values the little things in life. I enjoy building applications and 
-        <strong>coding</strong> websites from scratch, my professional journey has been quite diverse as I’ve built a career in the hospitality 
-        industry mainly because I <strong>enjoy</strong> greatly to be part of a <strong>team</strong>.
-      </p>
-    </div>
-    <div>
-      <div class="chris-paragraph-content">
-        <p> 
-          Definitely someone who <strong>embraces</strong> challenge and self-improvement, a <strong>positive</strong> attitude is part 
-          of my personality and very often look at the bigger picture or <strong>think</strong> outside the box 
-        </p>
-      </div>  
-    </div>
-    <div>
-      <div class="chris-paragraph-end">
-        <p> 
-          <br> (<strong> LITERALLY </strong>, as you can see) &nbsp;&nbsp;&nbsp;<i class="fas fa-smile"></i>
-        </p> 
+  <div class="d-flex">
+    <div class="row"> 
+      <div>
+        <%= image_tag("chris.jpg", :class => "chris-pic", :id => "chris-pic-border", alt: "upload") %>
       </div>
-    </div>
-  </div>
-
-  <div class="d-flex more-container"> 
-    <div class="more-text">
-      More of my human side 
-    </div>
-    <div id="myDIV"><span class="arrows"><i class="fas fa-angle-double-down"></i></span></div>     
+      <div class="chris-paragraph-container">
+        <div class="text-left title-me">
+          <br><br><br><br>What <br><br><br>&nbsp;about me?
+        </div>       
+        <div class="chris-paragraph-intro">
+          <p>
+            I'm a highly motivated <strong>person</strong> who genuinely values all of the little things in life. I enjoy building applications and 
+            <strong>coding</strong> websites from scratch, my professional journey has been quite diverse as I’ve built a career in the hospitality 
+            industry mainly because I <strong>enjoy</strong> greatly to be part of a <strong>team</strong>.
+          </p>
+        </div>        
+        <div>
+          <div class="chris-paragraph-content">
+            <p> 
+              Definitely someone who <strong>embraces</strong> challenge and self-improvement, a <strong>positive</strong> attitude is part 
+              of my personality and very often look at the bigger picture or <strong>think</strong> outside the box 
+            </p>
+          </div>  
+        </div>
+        <div>
+          <div class="chris-paragraph-end">
+            <p> 
+            (<strong> LITERALLY </strong>, as you can see) &nbsp;&nbsp;&nbsp;<span class="arrows" id="myDIV"><i class="fas fa-angle-double-down"></i></span>
+            </p> 
+          </div>
+        </div>
+        <div>
+          <div class="more-text">
+            <p>
+              More of my <br> &nbsp;&nbsp;&nbsp;&nbsp;<strong> human </strong> side
+            </p>           
+          </div>    
+        </div>
+      </div>  
+    </div>     
   </div> 
 </div>
 <%# --------------------------------2nd container---------------- %>
 <div class="second-container-home-content">
   <div class="second-paragraph-container">
-    <div class="text-left second-title"><br><br><br><br>Hobbies<br><br><br>&nbsp; &nbsp;<span style="color:yellow;"> & </span><span>Interests</div>
+    <div class="text-left second-title"><br><br><br><br>Hobbies<br><br><br>&nbsp; &nbsp;<span style="color:yellow;"> 
+      & </span><span>Interests
+    </div>
     <div class="second-paragraph-intro">
       <p>
         I am quite interested in technology and world news, I normally spend a couple of hours everyday reading through blogs, tech 
@@ -67,24 +77,22 @@
       <p> 
         <strong> HOBBIES -</strong> I practice tennis, landboarding and cycling. Some sports I like to follow are F1 and Ice Hockey
       </p> 
-    </div>
-    <div>
+    </div>  
       <div class="second-paragraph-end">
         <p> 
           I have lived in different countries which've made me very
           passionate about trying and learning new things whenever I can and wherever I am. 
         </p> 
       </div>   
-    </div>
   </div>
-      <div class="ski-pic">
-      <%= image_tag("skiing.jpg", height: 170, width: 265, alt: "upload") %> 
+      <div class="ski-pic-container">
+      <%= image_tag("skiing.jpg", :class => "ski-pic", alt: "upload") %> 
       </div>
-      <div class="bike-pic">
-        <%= image_tag("mbike.jpg", height: 200, width: 265, alt: "upload") %>
+      <div class="bike-pic-container">
+        <%= image_tag("mbike.jpg", :class => "bike-pic", alt: "upload") %>
       </div>
-      <div class="board-video">
-        <iframe width="250" height="200"
+      <div class="board-video-container">
+        <iframe class="board-video"
           src= "https://www.youtube.com/embed/R7fPZ8d9lnI" 
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

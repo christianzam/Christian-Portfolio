@@ -3,10 +3,9 @@
   background-size: cover;
   background-position: center;
   height: 110vh;
-  max-width: 100%;
+  width: 100%;
   color: #eee;
   padding-top: 40vh;
-  //margin-bottom: 30vh;
 }
 
 .banner-paragraph {
@@ -80,10 +79,20 @@
 .first-container-home-content {
   background-color: $first-background;
   background-size: cover;
-  height: 75vh;
+  height: 150vh;
   position: relative;
-  text-align: center;
   margin-bottom: 30vh;
+}
+
+.chris-paragraph-container {
+  position: absolute;
+  max-width: 100%;
+  height: auto;
+  top: 10%;
+  margin-left: 52%;
+  //padding-right: 5%;
+  padding-top: 1%;
+  padding-bottom: 2%;
 }
 
 .title-me{
@@ -94,17 +103,6 @@
   font-weight: 700;
   line-height: 13px;
   letter-spacing: 10.3px;
-}
-
-.chris-paragraph-container {
-  position: absolute;
-  height:auto;
-  max-width: 100%;
-  top: 10%;
-  left: 50%;
-  padding-right: 5%;
-  padding-top: 1%;
-  padding-bottom: 2%;
 }
 
 .chris-paragraph-intro {
@@ -137,19 +135,39 @@
   background-color: rgba(255, 255, 255, 0.205);
   padding: 10% 15% 0% 0%;
   text-align: center;
-  width: 400px;
+  width: 500px;
   height: 140px;
   border-radius: 2px;
+}
+
+.more-text {
+  position: relative;
+  top: 220px;
+  background-color: rgba(255, 255, 255, 0.205);
+  font-family: $links;
+  font-size: 3vw;
+  line-height: 23px;
+  letter-spacing: 7px;
 }
 // ----------------------------------- Second Container----------
 
 .second-container-home-content {
   background-color: black;
   background-size: cover;
-  height: 85vh;
+  height: 180vh;
   position: relative;
   text-align: center;
   //margin-bottom: 30vh;
+}
+
+.second-paragraph-container {
+  height: auto;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  padding-right: 5%;
+  padding-top: 1%;
+  padding-bottom: 2%;
 }
 
 .second-title {
@@ -161,16 +179,6 @@
   line-height: 15px;
   letter-spacing: 5px;
   color: white;
-}
-
-.second-paragraph-container {
-  height: auto;
-  position: absolute;
-  top: 5%;
-  right: 50%;
-  padding-right: 5%;
-  padding-top: 1%;
-  padding-bottom: 2%;
 }
 
 .second-paragraph-intro {
@@ -214,3 +222,4 @@
   border-bottom-left-radius: 8px;
   color: white;
 }
+
