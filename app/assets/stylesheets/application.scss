@@ -17,17 +17,18 @@
 html {
   scroll-behavior: smooth;
 }
-
+/*
 a {
   font-family: $links;
   color: 0094c6;
 }
-
+*/
 a:hover {
   text-decoration: none;
 }
 
 p {
+  position: relative;
   font-family: $paragraphs;
   font-size: 20px;
 }
