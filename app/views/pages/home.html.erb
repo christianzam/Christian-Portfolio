@@ -20,7 +20,7 @@
 <%# -------------------------- CONTENT --------------------------------------------- %>
 <div class="first-container-home-content" id="bio"> 
   <div class="d-flex">
-    <div class="row"> 
+    <div class="row">
       <div>
         <%= image_tag("chris.jpg", :class => "chris-pic", :id => "chris-pic-border", alt: "upload") %>
       </div>
@@ -57,13 +57,14 @@
             </p>           
           </div>    
         </div>
-      </div>  
+      </div>    
     </div>     
   </div> 
 </div>
 <%# --------------------------------2nd container---------------- %>
 <div class="second-container-home-content">
-  <div class="second-paragraph-container">
+  
+  <div class="second-paragraph-container ">
     <div class="text-left second-title"><br><br><br><br>Hobbies<br><br><br>&nbsp; &nbsp;<span style="color:yellow;"> 
       & </span><span>Interests
     </div>
@@ -75,7 +76,7 @@
     </div>
     <div class="second-paragraph-content">
       <p> 
-        <strong> HOBBIES -</strong> I practice tennis, landboarding and cycling. Some sports I like to follow are F1 and Ice Hockey
+        I practice tennis, landboarding and cycling. Some sports I follow are F1 and Ice Hockey. &nbsp; I enjoy being active as well as concentrating in more passive activities
       </p> 
     </div>  
       <div class="second-paragraph-end">
@@ -84,21 +85,25 @@
           passionate about trying and learning new things whenever I can and wherever I am. 
         </p> 
       </div>   
-  </div>
-      <div class="ski-pic-container">
+  </div>  
+  
+  <div class="pics-container">
+    <div class="ski-pic-container">
       <%= image_tag("skiing.jpg", :class => "ski-pic", alt: "upload") %> 
-      </div>
-      <div class="bike-pic-container">
-        <%= image_tag("mbike.jpg", :class => "bike-pic", alt: "upload") %>
-      </div>
-      <div class="board-video-container">
-        <iframe class="board-video"
-          src= "https://www.youtube.com/embed/R7fPZ8d9lnI" 
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen>
-        </iframe>
-      </div>
+    </div>
+    <div class="bike-pic-container">
+      <%= image_tag("mbike.jpg", :class => "bike-pic", alt: "upload") %>
+    </div>
+    <div class="board-video-container">
+      <iframe class="board-video"
+        src= "https://www.youtube.com/embed/R7fPZ8d9lnI" 
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+      </iframe>
+    </div>
+  </div>
+    
 </div>
 
 <%# :class => "ski-pic-border", %>

@@ -79,7 +79,7 @@
 .first-container-home-content {
   background-color: $first-background;
   background-size: cover;
-  height: 150vh;
+  height: 140vh;
   position: relative;
   margin-bottom: 30vh;
 }
@@ -149,7 +149,7 @@
   line-height: 23px;
   letter-spacing: 7px;
 }
-// ----------------------------------- Second Container----------
+// ----------------------------------- Hobbies & Interests / Second Container----------
 
 .second-container-home-content {
   background-color: black;
@@ -161,11 +161,11 @@
 }
 
 .second-paragraph-container {
-  height: auto;
+  width: 90% ;
+  height: 45%;
   position: absolute;
   top: 5%;
   left: 5%;
-  padding-right: 5%;
   padding-top: 1%;
   padding-bottom: 2%;
 }
@@ -184,12 +184,11 @@
 .second-paragraph-intro {
   position: absolute;
   border: rgba(128, 128, 128, 0.308) 1px solid;
-  padding: 12% 5% 0% 5%;
+  padding: 5% 3% 0% 5%;
   text-align: center;
-  //text-align: justify;
   color: white;
-  width: 400px;
-  height: 530px;
+  width: 850px;
+  height: 230px;
   border-top-right-radius: 8px;
   border-top-left-radius: 8px;
   margin-top: 0;
@@ -199,27 +198,27 @@
 .second-paragraph-content {
   position: relative;
   background-color: rgb(184, 184, 184);
-  width: 380px;
-  height: 150px;
+  width: 450px;
+  height: 120px;
   border-radius: 2px;
-  padding: 5px 10px 10px 20px;
-  top: 250px;
-  margin-left: 80px;
+  padding-left: 4%;
+  top: 28%;
+  left: 45%;
   text-align: center;
   color: black;
 }
 
 .second-paragraph-end {
   position: relative;
-  background-color: rgba(0, 0, 0, 0.4);
-  padding: 4% 5% 0% 2%;
-  top: 200px;
-  left: 20px;
-  text-align: left;
-  width: 380px;
-  height: 130px;
-  border-bottom-right-radius: 8px;
-  border-bottom-left-radius: 8px;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 450px;
+  height: 150px;
+  //border-bottom-right-radius: 8px;
+  //border-bottom-left-radius: 8px;
+  padding: 1% 4% 0% 2%;
+  top: 3%;
+  left: 9%;
+  text-align: center;
   color: white;
 }
 
