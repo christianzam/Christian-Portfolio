@@ -10,7 +10,7 @@
 
 .banner-paragraph {
   font-family: $paragraphs;
-  font-size: 40px;
+  font-size: 3.2vw;
   line-height: 40px;
   margin-top: 3%;
   margin-left: 9%;
@@ -30,7 +30,7 @@
 .about-myself:after {
   content: "ABOUT";
   font-family: $paragraphs;
-  font-size: 60px;
+  font-size: 5vw;
   color: white;
   transition-timing-function: ease-out;
   transition-duration: 0.5s;
@@ -41,7 +41,7 @@
   content: 'MYSELF';
   //margin-right: 10%;
   font-family: $paragraphs;
-  font-size: 60px;
+  font-size: 5vw;
   color: yellow;
   cursor: pointer;
 
