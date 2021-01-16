@@ -43,6 +43,17 @@
   -moz-animation-iteration-count: 2;
 }
 //--------------------------------------------- Hobbies ------------------------------
+.hobbies-p {
+  max-width: 33%;
+  height: auto;  
+  position: absolute;
+}
+
+#hobbies-p-border {
+  top: 20%;
+  right: 53%;
+}
+
 .pics-container {
   width: 45%;
   height: 70%;
