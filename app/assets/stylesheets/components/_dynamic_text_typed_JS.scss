@@ -1,10 +1,17 @@
+.dynamic-text-container{
+  position: absolute;
+  width: 50%;
+  height: auto;
+  top: 16%;
+  left: 8%;
+}
+
 .dynamic-text-font {
   position: absolute;
   font-family: $titles;
   font-size: 50px;
-  padding-left: 2%;
 }
-
+/*
 .dynamic-text-font2 {
   position: absolute;
   font-family: $titles;
@@ -12,17 +19,7 @@
   padding-left: 2%;
   padding-right: 15%;
 }
-
-.dynamic-text-container{
-  position: absolute;
-  top: 16%;
-  right: 20%;
-  left: 11%;
-  max-width: 100%;
-  background-color: transparent;
-  transition: 1.5s background-color ease;
-}
-
+*/
 
 
 /*

@@ -138,10 +138,10 @@
   border-radius: 2px;
 }
 
-.more-text-container{
-  position: relative;
+.more-text-container {
+  position: absolute;
   width: 100%;
-  top: 220px;
+  top: 80%;
   background-color: rgba(255, 255, 255, 0.205);
   padding-left: 25%;
 }
@@ -159,7 +159,7 @@
 .second-container-home-content {
   background-color: black;
   background-size: cover;
-  height: 150vh;
+  height: 170vh;
   position: relative;
 }
 

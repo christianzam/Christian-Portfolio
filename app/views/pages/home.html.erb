@@ -1,71 +1,37 @@
 <div class="d-flex banner">
   <div class="dynamic-text-container">
     <div class="dynamic-text-font" id="nav-typed-text"></div>
-    <div class="dynamic-text-font2" id="nav-typed-text2"></div>  
   </div>
     <div class="banner-paragraph ">
       <span class="text-justify">A full stack developer who</span><span> enjoys building and designing   
       </span><span>Front</span><span style="color:yellow;"> & </span><span>Back-End applications</span>
     </div>
   <div class="d-flex justify-content-end" id="word-about">
-    <div id="clicker" class="button"></div> <%# DO NOT REMOVE, js dynamic-text-depends on it %>       
-      <%# <div class="about-myself"> %>
-        <%# <span id="target" class="about-text">
-              <i class="fas fa-angle-double-down"></i> // arrows animation has a dependency on div above%>
-        <%# </span>   %>
-      <%# </div> %>
     <%= link_to '', "#{root_path}#bio", class: "about-myself" %>   
   </div>
 </div>
 <%# -------------------------- CONTENT --------------------------------------------- %>
 <div class="first-container-home-content" id="bio"> 
-  <div class="d-flex">
-    <div class="row">
-      <div>
-        <%= image_tag("chris.jpg", :class => "chris-pic", :id => "chris-pic-border", alt: "upload") %>
-      </div>
-      <div class="chris-paragraph-container">
-        <div class="text-left title-me">
-          <br><br><br><br>What <br><br><br>&nbsp;about me?
-        </div>       
-        <div class="chris-paragraph-intro">
-          <p>
-            I'm a highly motivated <strong> human being</strong> who genuinely values all of the little things in life. I enjoy building applications and 
-            <strong>coding</strong> websites from scratch, my professional journey has been quite diverse as I’ve built a career in the hospitality 
-            industry mainly because I <strong>enjoy</strong> greatly to be part of a <strong>team</strong>.
-          </p>
-        </div>        
-        <div>
-          <div class="chris-paragraph-content">
-            <p> 
-              Definitely someone who <strong>embraces</strong> challenge and self-improvement, a <strong>positive</strong> attitude is part 
-              of my personality and very often look at the bigger picture or <strong>think</strong> outside the box 
-            </p>
-          </div>  
-        </div>
-        <div>
-          <div class="chris-paragraph-end">
-            <p> 
-            (<strong> LITERALLY </strong>, as you can see) 
-            </p> 
-          </div>
-        </div>
-        <div class= "d-flex justify-content-between">
-          <div class= "more-text-container">
-            <p>
-              <span><%= link_to '', "#{root_path}#hobbies", class: "more-about-me-text"%></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="arrows" id="myDIV"><i class="fas fa-angle-double-down"></i></span>
-            </p>           
-          </div>    
-        </div>
-      </div>    
-    </div>     
-  </div> 
+  <div>
+    <%= image_tag("chris.jpg", :class => "chris-pic", :id => "chris-pic-border", alt: "upload") %>
+  </div>
+  <div>
+    <%= image_tag("What_about_me_p.png", :class => "what-about-me-p", :id => "what-about-me-border", alt: "upload") %>
+  </div>   
+  <div class= "more-text-container">
+    <div id="clicker"> <%# id clicker for JS file top to bottom %>
+      <p>
+        <span><%= link_to '', "#{root_path}#hobbies", class: "more-about-me-text"%></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="arrows" id="myDIV"><i class="fas fa-angle-double-down"></i></span>
+      </p>           
+    </div>
+  </div>     
 </div>
+
 <%# --------------------------------2nd container---------------- %>
-<div class="second-container-home-content" id="hobbies">
+<div class="second-container-home-content">
   
   <div class="second-paragraph-container">
-    <div class="text-left second-title"><br><br><br><br>Hobbies<br><br><br>&nbsp; &nbsp;<span style="color:yellow;"> 
+    <div class="text-left second-title" id="hobbies"><br><br><br><br>Hobbies<br><br><br>&nbsp; &nbsp;<span style="color:yellow;"> 
       & </span><span>Interests
     </div>
     <div class="second-paragraph-intro">
