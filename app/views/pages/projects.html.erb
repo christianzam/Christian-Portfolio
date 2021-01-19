@@ -6,39 +6,43 @@
   </div>
 
   <div class="spacer-chinampa">
-    <div class="row">
+    <div class="row justify-content-center">
 
       <div class="col-6 col-xs-9">
         <h1>
           My Chinampa <%= image_tag("chinampa_logo_round.png", :class => "chinampa_logo_round", alt: "upload") %>
         </h1> 
-         <h2>
-           <a href=https://www.mychinampa.com/ target="_blank">www.mychinampa.com</a>
-         </h2>
-        <p>My Chinampa is an application where you can find the best caring tips for your home plants.
-          The website has a database of the most common plants taken from an API and allows you to search for specific information in 
-          the web. We used sidekiq and TWILIO to code reminders for when to add water, sunlight and soil to your plants catalogue.
+        <h2>
+          <a href=https://www.mychinampa.com/ target="_blank">www.mychinampa.com</a>
+        </h2>
+        <p>My Chinampa is a web application designed to allow people to improve a living space advising on how to look after the 
+           health of indoor and outdoor plants, includes detailed tutorials, an extensive database of indoor and outdoor plant species 
+           scraped from differents API's, all of it fully searchable and browsable. The web app allows you to set up watering, light 
+           exposure and fertilizing reminders sent to your mobile device.
         </p>
         <%= image_tag("my_chinampa.png", :class => "my-chinampa-pic", alt: "upload") %>
       </div>
 
-      <div class="col-6 col-xs-12">
+      <div class="col-3 col-xs-12">
         <div class="aside">
-          <h4> Created by: </h4>
-              Oscar Duque
-              Christian Zamora
-              <br><br>
-          <h5> Programming laguages: </h5>          
-              Ruby on Rails
-              JS
-              HTML
-              SCSS
-              PostgreSQL
-              <%= " Ruby on Rails
-              JS
-              HTML
-              SCSS
-              PostgreSQL" * 10%>
+          <h4>Programming Languages</h4>
+            The application includes Java Script, SASS, Ruby, PostgreSQL, HTML5 and the framework is Rails.
+            <br>
+            Heroku is used as the platform to deploy the web app. It also includes a Twilio API to reach customers
+            through SMS's coded alongside sidekiq to allow users set customisable reminders.  
+            <br><br>
+          <h4>Web development</h4>          
+            In collaboration with The Chinampa coding team:
+            <br><br>
+            <span>
+            <a href=https://github.com/Oscar-Duque target="_blank">Oscar Duque</a> - Product Owner
+            <br>
+            <a href=https://www.linkedin.com/in/agathelt/ target="_blank">Agathe Laburthe-Tolra</a> - Lead Developer
+            <br>
+            <a href=https://www.linkedin.com/in/corentin-julienne-260658146/ target="_blank">Corentin Julien</a> - Project Manager
+            <br>
+            <a href=https://www.christian-zamora.com target="_blank">Christian Zamora</a> - Lead Designer
+            </span>
         </div>
       </div>
 
@@ -46,31 +50,35 @@
   </div>
 <%# ----------------------------SPORTIX-------------------------------------- %>
   <div class="spacer-sportix">
-    <div class="row">
-      <div class="col-6 col-xs-12">
+    <div class="row justify-content-center">
+      <div class="col-3 col-xs-12">
         <div class="aside">
-          <h4> Created by: </h4>
-              Oscar Duque
-              Christian Zamora
-              <br><br>
-          <h5> Programming laguages: </h5>          
-              Ruby on Rails
-              JS
-              HTML
-              SCSS
-              PostgreSQL
-              <%= " Ruby on Rails
-              JS
-              HTML
-              SCSS
-              PostgreSQL" * 10%>
+          <h4>Programming Languages</h4>
+            The application includes Ruby, SASS, Bootsrap, PostgreSQL, HTML5 and the framework is Rails.
+            <br>
+            Heroku is used as the platform to deploy the web app. 
+            <br><br>
+          <h4>Web development</h4>          
+            In collaboration with:
+            <br><br>
+            <span>
+            <a href=https://www.linkedin.com/in/agathelt/ target="_blank">Agathe Laburthe-Tolra</a> - Project Manager
+            <br>
+            <a href=https://www.linkedin.com/in/corentin-julienne-260658146/ target="_blank">Corentin Julien</a> - Lead Developer
+            <br>
+            <a href=https://github.com/Oscar-Duque target="_blank">Oscar Duque</a> - Back-End Engineer
+            <br>
+            <a href=https://www.christian-zamora.com target="_blank">Christian Zamora</a> - Front-End Engineer 
+            </span>
         </div>
       </div>
       <div class="col-6 col-xs-9">
-        <h1 id="sportix-h1">SPORTIX<%= image_tag("sportix_logo.png", :class => "sportix_logo_round", alt: "upload") %></h1>
+        <h1 id="sportix-h1"><%= image_tag("sportix_logo.png", :class => "sportix_logo_round", alt: "upload") %>SPORTIX</h1>
         <h2 id="sportix-h1"><a href=https://www.sportix.life/ target="_blank">https://sportix.life</a></h2>
-        <p>Sportix is an application we created inspired in the AirBnB website. The application allows you to book sport classes as well as 
-        creating your own profile and teach any sport you like.</p>
+        <p>Sportix is an application we created inspired in the AirBnB website. The target is to reach people who would like to book sport
+           lessons available in their area based on capacity and price. A user's profile allows to join group lesson as well as creating 
+           a group to instrct a sport lesson or a recreative activity of any kind.
+        </p>
           <%= image_tag("sportix.png", :class => "sportix-pic", alt: "upload") %>
       </div>
     </div>  

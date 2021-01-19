@@ -58,7 +58,7 @@ img {
 .aside {
 
   //background-color: rgba(53, 65, 54, 0.356);
-  //padding: 15px;
+  padding-top: 35%;
   color: black;
   text-align: center;
   font-size: 14px;
@@ -69,8 +69,8 @@ img {
 .spacer-chinampa {
   padding-top: 10vh;
   padding-bottom: 10vh;
-  padding-left: 5vh;
-  padding-right: 2vh;
+  //padding-left: 5vh;
+  //padding-right: 2vh;
   background-image:
   linear-gradient(to bottom, rgba(214, 240, 231, 0.479), rgba(248, 198, 165, 0.315));
 }
@@ -83,6 +83,7 @@ img {
 .my-chinampa-pic {
   width: 100%;
   height: auto;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
 
 // ---------------------------------SPORTIX-----------------------
@@ -90,21 +91,21 @@ img {
 .spacer-sportix {
   padding-top: 10vh;
   padding-bottom: 10vh;
-  padding-left: 5vh;
-  padding-right: 2vh;
+  //padding-left: 5vh;
+  //padding-right: 5vh;
   background-image:
   linear-gradient(to bottom, rgba(248, 198, 165, 0.315), rgba(253, 244, 238, 0.479));
 }
 
 #sportix-h1{
-  text-align: center;
-  margin-left: 10%;
+  text-align: right;
+  //margin-left: 10%;
 }
 
 .sportix_logo_round {
   width: 10%;
   height: auto;
-  margin-left: 10%;
+  margin-right: 5%;
 }
 
 .sportix-pic {
@@ -120,7 +121,7 @@ img {
   //padding-right: 2vh;
   //background-image:
   //linear-gradient(to bottom, rgba(253, 244, 238, 0.479), rgb(255, 255, 255));
-  background-image: linear-gradient(rgba(253, 244, 238, 0.479),rgba(253, 244, 238, 0.904), rgb(0, 0, 0));
+  background-image: linear-gradient(rgba(253, 244, 238, 0.479),rgba(253, 244, 238, 0.904), rgb(255, 255, 255));
 }
 
 .card-exercise {
