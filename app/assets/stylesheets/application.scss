@@ -40,8 +40,21 @@ ul {
 
 h1 {
   font-family: $paragraphs;
-  font-size: 50px; 
+  font-size: 3.7vw; 
   font-weight: 700;
+}
+
+h2 {
+  font-family: $links;
+  font-size: 2vw; 
+  font-weight: 700;
+  color: black;
+  &:hover {
+    transform: rotateX(360deg);
+    transition-duration: 0.5s;
+    //transform: scale(1.1);
+    color: rgb(0, 225, 255);
+  }
 }
 
 .site {

@@ -56,12 +56,19 @@ img {
 }
 
 .aside {
-  background-color: #33b5e5;
-  padding: 15px;
-  color: #ffffff;
+
+  //background-color: rgba(53, 65, 54, 0.356);
+  //padding: 15px;
+  color: black;
   text-align: center;
   font-size: 14px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  //box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  //border-radius: 5%;
+}
+
+.chinampa_logo_round {
+  width: 10%;
+  height: auto;
 }
 
 .my-chinampa-pic {
@@ -72,7 +79,7 @@ img {
 .spacer-chinampa {
   padding-top: 5vh;
   padding-bottom: 10vh;
-  padding-left: 2vh;
+  padding-left: 5vh;
   padding-right: 2vh;
   background-image:
   linear-gradient(to bottom, rgba(1, 37, 31, 0.185), rgba(255, 164, 115, 0.082));
@@ -81,10 +88,26 @@ img {
 .spacer-sportix {
   padding-top: 5vh;
   padding-bottom: 10vh;
-  padding-left: 2vh;
+  padding-left: 5vh;
   padding-right: 2vh;
   background-image:
   linear-gradient(to bottom, rgba(255, 164, 115, 0.082), rgba(245, 129, 52, 0.315));
+}
+
+#sportix-h1{
+  text-align: center;
+  margin-left: 10%;
+}
+
+.sportix_logo_round {
+  width: 10%;
+  height: auto;
+  margin-left: 10%;
+}
+
+.sportix-pic {
+  width: 100%;
+  height: auto;
 }
 
 @media only screen and (min-width: 600px) {
