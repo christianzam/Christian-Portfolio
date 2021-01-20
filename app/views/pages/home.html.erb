@@ -31,25 +31,32 @@
     </div>
   </div>
 </div> <%# first container id=bio%>
-<%# --------------------------------2nd container---------------- %>
+<%# --------------------------------2nd container/Hobbies---------------- %>
 <div class="second-container-home-content">
-  <div>
-    <%= image_tag("Hobbies.png", :class => "hobbies-p", :id => "hobbies-p-border", alt: "upload") %>
-  </div> 
-  <div class="pics-container" id="hobbies">
-    <div class="ski-pic-container">
-      <%= image_tag("skiing.jpg", :class => "ski-pic", alt: "upload") %> 
-    </div>
-    <div class="bike-pic-container">
-      <%= image_tag("mbike.jpg", :class => "bike-pic", alt: "upload") %>
-    </div>
-    <div class="board-video-container">
-      <iframe class="board-video"
-        src= "https://www.youtube.com/embed/R7fPZ8d9lnI" 
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen>
-      </iframe>
-    </div>
+  <div class="row">
+      
+      <div class="col-12 col-xs-9">      
+        <%= image_tag("Hobbies.png", :class => "hobbies-paragraph", :id => "hobbies-paragraph-border", alt: "upload") %>
+      </div>
+
+      <div class="col-12 col-xs-9">  
+        <div class="pics-container" id="hobbies">
+          <div class="ski-pic-container">
+            <%= image_tag("skiing.jpg", :class => "ski-pic", alt: "upload") %> 
+          </div>
+          <div class="bike-pic-container">
+            <%= image_tag("mbike.jpg", :class => "bike-pic", alt: "upload") %>
+          </div>
+          <div class="board-video-container">
+            <iframe class="board-video"
+              src= "https://www.youtube.com/embed/R7fPZ8d9lnI" 
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen>
+            </iframe>
+          </div>
+        </div>
+      </div> 
+
   </div>   
 </div>
