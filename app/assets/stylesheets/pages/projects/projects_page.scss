@@ -36,41 +36,16 @@ img {
   width: 100%;
 }
 
-.menu ul {
-  font-family: $links;
-  list-style-type: none;
-  margin-right: 2%;
-  padding: 0;
-}
-
-.menu li {
-  padding: 8px;
-  margin-bottom: 7px;
-  background-color :#33b5e5;
-  color: #ffffff;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-}
-
-.menu li:hover {
-  background-color: #0099cc;
-}
-
 .aside {
-
-  //background-color: rgba(53, 65, 54, 0.356);
   padding-top: 35%;
   color: black;
   text-align: center;
   font-size: 14px;
-  //box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-  //border-radius: 5%;
 }
 // ---------------------------------MyChinampa------------------
 .spacer-chinampa {
   padding-top: 10vh;
   padding-bottom: 10vh;
-  //padding-left: 5vh;
-  //padding-right: 2vh;
   background-image:
   linear-gradient(to bottom, rgba(214, 240, 231, 0.479), rgba(248, 198, 165, 0.315));
 }
@@ -84,15 +59,19 @@ img {
   width: 100%;
   height: auto;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  &:hover{
+    transition-duration: 0.3s;
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0,0,0,0.7);
+  }
 }
-
 // ---------------------------------SPORTIX-----------------------
 
 .spacer-sportix {
   padding-top: 10vh;
   padding-bottom: 10vh;
-  //padding-left: 5vh;
-  //padding-right: 5vh;
+  padding-left: 0;
+  padding-right: 0;
   background-image:
   linear-gradient(to bottom, rgba(248, 198, 165, 0.315), rgba(253, 244, 238, 0.479));
 }
@@ -111,6 +90,16 @@ img {
 .sportix-pic {
   width: 100%;
   height: auto;
+  &:hover{
+    transition-duration: 0.3s;
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0,0,0,0.7);
+  }
+}
+
+#sportix-text {
+  padding-left: 6%;
+  text-align: justify;
 }
 
 //-----------------------------EXCERCISES------------------------
@@ -118,16 +107,15 @@ img {
   padding-top: 10vh;
   padding-bottom: 10vh;
   padding-left: 5vh;
-  //padding-right: 2vh;
-  //background-image:
-  //linear-gradient(to bottom, rgba(253, 244, 238, 0.479), rgb(255, 255, 255));
-  background-image: linear-gradient(rgba(253, 244, 238, 0.479),rgba(253, 244, 238, 0.904), rgb(255, 255, 255));
+  background-image:
+  linear-gradient(to bottom, rgba(253, 244, 238, 0.479), rgb(255, 255, 255));
 }
 
 .card-exercise {
   overflow: hidden;
-  background: rgba(255, 255, 255, 0.2);
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  //background: rgba(255, 255, 255, 0.2);
+  //box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  //border: black 1px solid;
   border-radius: 1%;
   text-align: center;
 }
@@ -173,4 +161,3 @@ img {
   .col-11 {width: 91.66%;}
   .col-12 {width: 100%;}
 }
-
