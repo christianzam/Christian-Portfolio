@@ -45,7 +45,7 @@ img {
 
 aside-text {
   font-family: $paragraphs;
-  font-size: 1.2vw;
+  font-size: 1.5vw;
 }
 // ---------------------------------MyChinampa------------------
 .spacer-chinampa {
@@ -133,12 +133,13 @@ chinampa-title {
 }
 
 .card-exercise {
-  overflow: hidden;
+  //overflow: hidden;
   //background: rgba(255, 255, 255, 0.2);
   //box-shadow: 0 0 15px rgba(0,0,0,0.2);
   //border: black 1px solid;
   border-radius: 1%;
   text-align: center;
+  margin-bottom: 1px;
 }
 
 .card-exercise-pictures {

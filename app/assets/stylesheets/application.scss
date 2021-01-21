@@ -30,7 +30,7 @@ a:hover {
 p {
   position: relative;
   font-family: $paragraphs;
-  font-size: 1.5vw;
+  font-size: 1.7vw;
 }
 
 ul {
@@ -40,13 +40,13 @@ ul {
 
 h1 {
   font-family: $titles;
-  font-size: 3.7vw; 
+  font-size: 3.9vw; 
   font-weight: 500;
 }
 
 h2 {
   font-family: $links;
-  font-size: 2vw; 
+  font-size: 2.2vw; 
   font-weight: 700;
   color: black;
   &:hover {
@@ -59,13 +59,13 @@ h2 {
 
 h3 {
   font-family: $titles;
-  font-size: 1.7vw; 
+  font-size: 1.9vw; 
   font-weight: 700;
 }
 
 h4 {
   font-family: $titles;
-  font-size: 1.4vw; 
+  font-size: 1.6vw; 
   font-weight: 700;
 }
 

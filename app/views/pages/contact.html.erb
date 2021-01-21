@@ -4,6 +4,7 @@
   </div>
 </div>
 <%# ---------------------------------------CHINAMPA------------------------------------- %>
+<div class="box">
 <main class="grid">
   <header> 
     <chinampa-title>My Chinampa<%= image_tag("chinampa_logo_round.png", :class => "chinampa_logo_round", alt: "upload") %></chinampa-title>
@@ -41,6 +42,7 @@
       <br><br>
     </aside-text>
   </aside>
+
 <%# ---------------------------------------Sportix------------------------------------- %>
   <header> 
     <div class="sportix-title"><%= image_tag("sportix_logo.png", :class => "sportix_logo_round", alt: "upload") %>SPORTIX</div>
@@ -77,7 +79,41 @@
     </aside-text>
   </aside>
 
-  
-
-  <footer>ANOTHER WAY TO DO A FOOTER</footer>
+  <footer>
+  </footer>
 </main>
+</div>
+
+<div class="container">
+  
+        <div class="card-exercise">
+          <h3> Mr.Cocktail </h3> 
+          <a href= https://github.com/christianzam/rails-mister-cocktail target="_blank">
+          <%= image_tag("mr_cocktail.png", :class => "card-exercise-pictures", alt: "upload") %>
+          </a>
+          <aside-text>My very first MVC app I made from scratch. Coded with Ruby and JS,
+            includes a N:N (many to many) relationship database created with PostgreSQL. 
+          </aside-text>        
+        </div>
+<%# -----------------------------GeoCode-------------------------------------- %>
+      <div class="card-exercise">
+        <h3> GeoCode </h3> 
+        <a href= https://github.com/christianzam/GeoCode target="_blank">
+        <%= image_tag("GeoCoder.png", :class => "card-exercise-pictures", alt: "upload") %>
+        </a>
+        <aside-text>This application gets GPS coordinates that uses AJAX and the MapBox Geocoding API, it displays a map showing the 
+        input address.
+        </aside-text> 
+      </div>
+<%# -----------------------------Refrain.rb-------------------------------------- %>
+      <div class="card-exercise">
+        <h3>Refrain.rb</h3> 
+        <a href= https://github.com/christianzam/Refrain/blob/master/lib/refrain.rb target="_blank">
+        <%= image_tag("refrain_rb.png", :class => "card-exercise-pictures", alt: "upload") %>
+        </a>
+        <aside-text>Ruby file coded specifically to understand how the order 
+          arguments are called in a method can often be a source of errors.
+        </aside-text> 
+      </div>
+
+</div> 
