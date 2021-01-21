@@ -1,13 +1,11 @@
 .footer {
-  max-width: 100%;;
-  height: auto vh;
+  max-width: 100%;
   background-color: #000000;
-  //margin-top: 1vh;
 }
 
 .footer-links {
   font-family: $links;
-  font-size: 30px;
+  font-size: 2.5vw;
   &:hover {
     //transform: rotateY(360deg);
     transition-duration: 0.3s;
