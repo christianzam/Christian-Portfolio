@@ -1,0 +1,178 @@
+/*
+
+.banner-projects {
+  background-color: black;
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  width: 100%;
+  color: #eee;
+  padding-top: 20vh;
+}
+
+.header {
+  width: 50%;
+  background-color: transparent;
+  color: #ffffff;
+  padding: 15px;
+}
+//------------------------CONTENT LAYOUT-------------------
+* {
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.row:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+  width: 100%;
+}
+
+.aside {
+  padding-top: 42%;
+  color: black;
+  text-align: center;
+  //font-size: 14px;
+}
+
+aside-text {
+  font-family: $paragraphs;
+  font-size: 1.5vw;
+}
+// ---------------------------------MyChinampa------------------
+.spacer-chinampa {
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  background-image:
+  linear-gradient(to bottom, rgba(214, 240, 231, 0.479), rgba(248, 198, 165, 0.315));
+}
+
+.chinampa_logo_round {
+  width: 10%;
+  height: auto;
+  margin-left: 5%;
+}
+
+.my-chinampa-pic {
+  width: 100%;
+  height: auto;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  &:hover{
+    transition-duration: 0.3s;
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0,0,0,0.7);
+  }
+}
+// ---------------------------------SPORTIX-----------------------
+
+.spacer-sportix {
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  padding-left: 0;
+  padding-right: 0;
+  background-image:
+  linear-gradient(to bottom, rgba(248, 198, 165, 0.315), rgba(253, 244, 238, 0.479));
+}
+
+.sportix-title {
+  font-family: $titles;
+  font-size: 3.7vw;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#sportix-h2 {
+  text-align: right;
+  //margin-left: 10%;
+}
+
+.sportix_logo_round {
+  width: 8%;
+  height: 8%;
+  margin-right: 5%;
+  margin-top: 2.5%;
+}
+
+.sportix-pic {
+  width: 100%;
+  height: auto;
+  &:hover{
+    transition-duration: 0.3s;
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0,0,0,0.7);
+  }
+}
+
+#sportix-text {
+  padding-left: 6%;
+  text-align: justify;
+}
+
+//-----------------------------EXCERCISES------------------------
+.spacer-exercises {
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  padding-left: 5vh;
+  background-image:
+  linear-gradient(to bottom, rgba(253, 244, 238, 0.479), rgb(255, 255, 255));
+}
+
+.card-exercise {
+  border-radius: 1%;
+  text-align: center;
+  margin-bottom: 1px;
+}
+
+.card-exercise-pictures {
+  width: 100%;
+  height: auto;
+  margin-bottom: 5%;
+  &:hover{
+    transition-duration: 0.3s;
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0,0,0,0.7);
+  }
+}
+
+//------------------------------MediaQueries---------------------------
+@media only screen and (min-width: 600px) {
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+
+@media only screen and (min-width: 768px) {
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+
+*/
