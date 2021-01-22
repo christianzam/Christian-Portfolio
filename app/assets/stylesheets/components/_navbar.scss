@@ -1,12 +1,12 @@
 .navbar {
-  max-width: 100%; 
+  width: cover; 
   height: 53px;
   background-color: transparent;
   transition: 1.5s background-color ease;
 }
 
   .navbar .navbar-collapse {
-    flex-grow: 0;
+    //flex-grow: 0;
   }
 
   .navbar-black {
@@ -18,11 +18,24 @@
     font-size: 2vw;
     font-weight: 500;
     margin-right: 9%;
+    color: rgb(255, 255, 255);
+    &:hover {
+      //transform: rotateY(360deg);
+      transition-duration: 0.3s;
+      transform: scale(1.05);
+      color: rgb(255, 255, 125);
+    }
+  }
+
+  #house {
+    font-size: 2vw;
+    margin-right: 9%;
+    color: rgb(255, 255, 255);
     &:hover {
       //transform: rotateY(360deg);
       transition-duration: 0.3s;
       transform: scale(1.2);
-      color: rgb(0, 225, 255);
+      color: rgb(255, 255, 125);
     }
   }
 
@@ -32,5 +45,6 @@
 
   .dropdown-text {
     font-family: $links;
-    color: rgb(28, 117, 250);
+    color: yellow;
   }
+
