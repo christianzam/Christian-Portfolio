@@ -16,13 +16,20 @@
 // Site Style 
 html {
   scroll-behavior: smooth;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+  background-color: black;
 }
-/*
-a {
-  font-family: $links;
-  color: 0094c6;
+
+body {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
 }
-*/
+
 a:hover {
   text-decoration: none;
 }
@@ -30,7 +37,7 @@ a:hover {
 p {
   position: relative;
   font-family: $paragraphs;
-  font-size: 1.7vw;
+  font-size: 14px;
 }
 
 ul {
@@ -40,13 +47,13 @@ ul {
 
 h1 {
   font-family: $titles;
-  font-size: 3.9vw; 
+  font-size: 24px; 
   font-weight: 500;
 }
 
 h2 {
   font-family: $links;
-  font-size: 2.2vw; 
+  font-size: 18px; 
   font-weight: 700;
   color: black;
   &:hover {
@@ -59,23 +66,12 @@ h2 {
 
 h3 {
   font-family: $titles;
-  font-size: 1.9vw; 
+  font-size: 15px; 
   font-weight: 700;
 }
 
 h4 {
   font-family: $titles;
-  font-size: 1.6vw; 
+  font-size: 12.5px; 
   font-weight: 700;
-}
-
-.site {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-  margin: 0;
-}
-
-.site-content {
-  flex: 1;
 }

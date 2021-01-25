@@ -2,14 +2,14 @@
   <div class="typing-text">
     <div class="dynamic-text-font" id="nav-typed-text"></div>
   </div>
-<div></div>
+    <div class="d-flex justify-content-end" id="word-about">
+    <%= link_to '', "#{root_path}#bio", class: "about-myself" %>   
+  </div>  
   <div class="banner-paragraph-home">
     <span class="text-justify">A full stack developer who <br></span><span> enjoys building and designing <br>   
     </span><span>Front</span><span style="color:yellow;"> & </span><span>Back-End applications</span>
   </div>
-  <div class="d-flex justify-content-end" id="word-about">
-    <%= link_to '', "#{root_path}#bio", class: "about-myself" %>   
-  </div>
+  <grid-space></grid-space>
 </div>
 <%# --------------------------Firs container Biography------------------------------ %>
 <div class="biography-grid first-container-home" id="bio">  
@@ -33,8 +33,8 @@
   <div class="hobbies-paragraph-container">         
     <%= image_tag("Hobbies.png", :class => "hobbies-paragraph", :id => "hobbies-paragraph-border", alt: "upload") %>
   </div>
-  <div class="hobbies-pics-container" id="hobbies">
-    <div class="ski-pic-container">
+  <div class="hobbies-pics-container">
+    <div class="ski-pic-container" id="hobbies">
       <%= image_tag("skiing.jpg", :class => "ski-pic", alt: "upload") %> 
     </div>
     <div class="bike-pic-container">
