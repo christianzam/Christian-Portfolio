@@ -11,7 +11,8 @@
   background-color: black;
   background-size: cover;
   background-position: center;
-  height: 50vh;
+  height: auto;
+  min-height: 100vh !important;
   width: 100%;
   color: #eee;
   padding-top: 20vh;
@@ -66,47 +67,131 @@ p {
 .aside {
   padding-top: 42%;
   color: black;
+}
+
+.aside-text {
   text-align: center;
-  //font-size: 14px;
 }
 
-aside-text {
-  font-family: $paragraphs;
-  font-size: 12px;
-}
-
-//---------------------------chinampa--------------------------------------
-chinampa-title {
-  font-family: $titles;
-  font-size: 27px;
-  display: flex;
-  align-items: flex-start;
-}
-
-.chinampa_logo_round {
-  width: 10%;
-  height: auto;
-  margin-left: 5%;
-}
-
-.my-chinampa-pic {
-  width: 100%;
-  height: auto;
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
-  &:hover{
-    transition-duration: 0.3s;
-    transform: scale(1.05);
-    box-shadow: 0 0 15px rgba(0,0,0,0.7);
+@media (max-width:1024px) {
+	.aside-text {
+    font-family: $paragraphs;
+    font-size: 15px;
   }
 }
 
+@media (max-width:768px) {
+	.aside-text {
+    font-family: $paragraphs;
+    font-size: 14px;
+  }
+}
+
+@media (max-width:480px) {
+	.aside-text {
+    font-family: $paragraphs;
+    font-size: 14px;
+  }
+}
+
+@media (max-width:320px) {
+	.aside-text {
+    font-family: $paragraphs;
+    font-size: 13px;
+  }
+}
+
+//---------------------------chinampa--------------------------------------
+@media (max-width:1024px) {
+  chinampa-title {
+    font-family: $titles;
+    font-size: 40px;
+    display: flex;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width:768px) {
+  chinampa-title {
+    font-family: $titles;
+    font-size: 35px;
+    display: flex;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width:480px) {
+  chinampa-title {
+    font-family: $titles;
+    font-size: 30px;
+    display: flex;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width:320px) {
+  chinampa-title {
+    font-family: $titles;
+    font-size: 30px;
+    display: flex;
+    align-items: flex-start;
+  }
+}
+
+  .chinampa_logo_round {
+    width: 10%;
+    height: auto;
+    margin-left: 5%;
+  }
+
+  .my-chinampa-pic {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    &:hover{
+      transition-duration: 0.3s;
+      transform: scale(1.05);
+      box-shadow: 0 0 15px rgba(0,0,0,0.7);
+    }
+  }
+
+
 //-----------------------Sportix---------------------------------
 
-.sportix-title {
-  font-family: $titles;
-  font-size: 27px;
-  display: flex;
-  justify-content: flex-end;
+@media (max-width:1024px) {
+  .sportix-title {
+    font-family: $titles;
+    font-size: 40px;
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+@media (max-width:768px) {
+  .sportix-title {
+    font-family: $titles;
+    font-size: 35px;
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+@media (max-width:480px) {
+  .sportix-title {
+    font-family: $titles;
+    font-size: 30px;
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+@media (max-width:320px) {
+  .sportix-title {
+    font-family: $titles;
+    font-size: 30px;
+    display: flex;
+    justify-content: flex-end;
+  }
 }
 
 #sportix-h2 {
@@ -132,7 +217,7 @@ chinampa-title {
 }
 
 #sportix-text {
-  padding-left: 6%;
+ // padding-left: 1%;
   text-align: justify;
 }
 
