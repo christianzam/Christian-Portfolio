@@ -1,4 +1,4 @@
-<div class="grid home-banner" id="clicker"> 
+<div class="grid home-banner"> 
   <div class="typing-text">
     <div class="dynamic-text-font" id="nav-typed-text"></div>
   </div>
@@ -20,16 +20,13 @@
     <%= image_tag("What_about_me_p.png", :class => "what-about-me-p", alt: "upload") %>
   </div>
   <div class= "more-text-container">
-    <div> <%# id clicker for JS file top to bottom %>
-      
-        <span><%= link_to '', "#{root_path}#hobbies", class: "more-about-me-text"%></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                
+    <div> 
+      <span><%= link_to '', "#{root_path}#hobbies", class: "more-about-me-text"%></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   
     </div>
   </div>
-  <div id="clicker">
+  <div>
     <span class="arrows" id="myDIV"><i class="fas fa-angle-double-down"></i></span>
   </div>
-    
 </div> 
 <%# --------------------------------2nd container/Hobbies---------------- %>
 <div class="hobbies-grid second-container-home">

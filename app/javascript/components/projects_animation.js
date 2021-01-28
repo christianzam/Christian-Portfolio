@@ -28,13 +28,12 @@
 // add the below to home.html.erb
 // <div id="myDIV" class="myFunction">ABOUT</div>
 */
-
-const animationAboutMyself = () => {
+const projectsAnimation = () => {
     
-  const x = document.getElementById("myDIV");
-    x.addEventListener("click", () => {
+  const x = document.getElementById("projects-animation");
+    window.addEventListener("mouseover", () => {
       console.log("animation done")
-      x.style.WebkitAnimation = "mymove 4s 2"; // Code for Chrome, Safari and Opera
+      x.style.WebkitAnimation = "mymove 4s loop"; // Code for Chrome, Safari and Opera
       
       // Code for Chrome, Safari and Opera
       x.addEventListener("webkitAnimationStart", myStartFunction);
@@ -55,13 +54,20 @@ const animationAboutMyself = () => {
       function myEndFunction() {
         this.innerHTML = "";
       }
+
+      window.requestAnimationFrame(function() {
+        document.getElementById("projects-animation").classList.remove('mymove');   
+        window.requestAnimationFrame(function() {
+          document.getElementById("projects-animation").classList.add('mymove');
+        });
+      });
       
     });
   
 };
 
 
-export { animationAboutMyself };
+export { projectsAnimation };
 
 //const x = document.getElementById("myDIV");
 // Start the animation with JavaScript

@@ -1,5 +1,25 @@
 
+#projects-animation {
+  position: relative;
+  font-size: 40px;
+  font-family: $titles;
+  &:hover {
+    color: yellow;
+    transition-duration: 0.3s;
+    cursor: pointer;
+  }
+}
 
+// Chrome, Safari, Opera 
+@-webkit-keyframes mymove {
+  from {top: 0px;}
+  to {top: 200px;}
+}
+
+@keyframes mymove {
+  from {top: 0px;}
+  to {top: 200px;}
+}
 
 
 

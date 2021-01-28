@@ -10,23 +10,27 @@ import 'sweetalert2';
 import 'bootstrap';
 
 //import { initSweetalert } from "../packs/init_sweetalert";
-//import { animationAboutMyself } from "../components/animation_about_myself";
 //import { transformText } from "../components/transform_text";
-import { animationTopBottomButton } from "../components/animation_top_bottom_button";
+//import { dynamicTextTypedJS2 } from '../components/dynamic_text_typed_js_2';
+//import { randomWords} from "../components/random_words";
+//import { animationTopBottomButton } from "../components/animation_top_bottom_button";
+import { projectsAnimation } from "../components/projects_animation";
 import { initUpdateNavbarOnScroll } from '../components/navbar';
 import { dynamicTextTypedJS } from '../components/dynamic_text_typed_js';
-//import { dynamicTextTypedJS2 } from '../components/dynamic_text_typed_js_2';
 import { movingArrows } from "../components/moving_arrows";
+//import { showDate} from "../components/show_date";
 
 document.addEventListener('turbolinks:load', () => {
   //initSweetalert();
   //transformText();
-  //animationAboutMyself();
-  animationTopBottomButton();
+  //dynamicTextTypedJS2();
+  //randomWords();
+  //animationTopBottomButton();
+  projectsAnimation();
   initUpdateNavbarOnScroll();
   dynamicTextTypedJS();
   movingArrows();
-  //dynamicTextTypedJS2();
+  //showDate();
 });
 
 // Uncomment to copy all static images under ../images to the output folder and reference
