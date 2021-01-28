@@ -14,19 +14,22 @@
 <%# --------------------------Firs container Biography------------------------------ %>
 <div class="biography-grid first-container-home" id="bio">  
   <div class="bio-pic-container"> 
-      <%= image_tag("chris.jpg", :class => "chris-pic", :id => "chris-pic-border", alt: "upload") %>
+      <%= image_tag("chris_bw.jpg", :class => "chris-pic", :id => "chris-pic-border", alt: "upload") %>
   </div> 
   <div class="bio-paragraph-container">
     <%= image_tag("What_about_me_p.png", :class => "what-about-me-p", alt: "upload") %>
   </div>
   <div class= "more-text-container">
-    <div id="clicker"> <%# id clicker for JS file top to bottom %>
-      <p>
-        <span><%= link_to '', "#{root_path}#hobbies", class: "more-about-me-text"%></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="arrows" id="myDIV"><i class="fas fa-angle-double-down"></i></span>
-      </p>           
+    <div> <%# id clicker for JS file top to bottom %>
+      
+        <span><%= link_to '', "#{root_path}#hobbies", class: "more-about-me-text"%></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                
     </div>
   </div>
-    <div></div>
+  <div id="clicker">
+    <span class="arrows" id="myDIV"><i class="fas fa-angle-double-down"></i></span>
+  </div>
+    
 </div> 
 <%# --------------------------------2nd container/Hobbies---------------- %>
 <div class="hobbies-grid second-container-home">
