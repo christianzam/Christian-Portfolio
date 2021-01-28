@@ -249,7 +249,6 @@ p {
   grid-gap: 5em;
   grid-template-columns: repeat(auto-fit, minmax(100px, 2fr));
   grid-template-rows: repeat(auto-fit, minmax(100px, 2fr));
-  // grid-template-rows: repeat(3, 100px);
   padding-top: 10%;
   height: auto;
   min-height: 100vh !important;
@@ -259,4 +258,12 @@ p {
   //border-radius: 1%;
   text-align: center;
   margin-bottom: 1px;
+}
+
+.card-exercise-pictures {
+  &:hover{
+    transition-duration: 0.3s;
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0,0,0,0.7);
+  }
 }
