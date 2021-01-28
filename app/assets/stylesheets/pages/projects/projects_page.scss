@@ -12,10 +12,11 @@
   background-size: cover;
   background-position: center;
   height: auto;
-  min-height: 100vh !important;
+  min-height: 80vh !important;
   width: 100%;
   color: #eee;
   padding-top: 20vh;
+  text-align: center;
 }
 
 //-------------------------Middle Content Grid--------------------
@@ -47,10 +48,6 @@ p {
   .grid {
     grid-template-columns: 2fr 1fr;
   }
-  
-  header, footer {
-    grid-column: 1 / 3;
-  }
 }
 
 .media {
@@ -73,10 +70,17 @@ p {
   text-align: center;
 }
 
+@media (max-width:1920px) {
+	.aside-text {
+    font-family: $paragraphs;
+    font-size: 25px;
+  }
+}
+
 @media (max-width:1024px) {
 	.aside-text {
     font-family: $paragraphs;
-    font-size: 15px;
+    font-size: 20px;
   }
 }
 
@@ -102,10 +106,19 @@ p {
 }
 
 //---------------------------chinampa--------------------------------------
+@media (max-width:1920px) {
+  chinampa-title {
+    font-family: $titles;
+    font-size: 65px;
+    display: flex;
+    align-items: flex-start;
+  }
+}
+
 @media (max-width:1024px) {
   chinampa-title {
     font-family: $titles;
-    font-size: 40px;
+    font-size: 60px;
     display: flex;
     align-items: flex-start;
   }
@@ -114,7 +127,7 @@ p {
 @media (max-width:768px) {
   chinampa-title {
     font-family: $titles;
-    font-size: 35px;
+    font-size: 40px;
     display: flex;
     align-items: flex-start;
   }
@@ -158,10 +171,19 @@ p {
 
 //-----------------------Sportix---------------------------------
 
+@media (max-width:1920px) {
+  .sportix-title {
+    font-family: $titles;
+    font-size: 65px;
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
 @media (max-width:1024px) {
   .sportix-title {
     font-family: $titles;
-    font-size: 40px;
+    font-size: 60px;
     display: flex;
     justify-content: flex-end;
   }
@@ -170,7 +192,7 @@ p {
 @media (max-width:768px) {
   .sportix-title {
     font-family: $titles;
-    font-size: 35px;
+    font-size: 40px;
     display: flex;
     justify-content: flex-end;
   }
@@ -224,11 +246,11 @@ p {
 //-----------------------container exercises---------------------
 .container { 
   display: grid; 
-  grid-gap: 4em;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-  grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
+  grid-gap: 5em;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 2fr));
+  grid-template-rows: repeat(auto-fit, minmax(100px, 2fr));
   // grid-template-rows: repeat(3, 100px);
-  padding: 10%;
+  padding-top: 10%;
   height: auto;
   min-height: 100vh !important;
 }

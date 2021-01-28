@@ -35,23 +35,48 @@ a:hover {
   text-decoration: none;
 }
 
-p {
-  position: relative;
-  font-family: $paragraphs;
-  font-size: 18px;
-}
-
-
-h1 {
-  font-family: $titles;
-  font-size: 24px; 
-  font-weight: 500;
+@media (max-width:1920px) {
+  p {
+    position: relative;
+    font-family: $paragraphs;
+    font-size: 27px;
+  }
 }
 
 @media (max-width:1024px) {
+  p {
+    position: relative;
+    font-family: $paragraphs;
+    font-size: 25px;
+  }
+}
+
+@media (max-width:768px) {
+  p {
+    position: relative;
+    font-family: $paragraphs;
+    font-size: 23px;
+  }
+}
+
+@media (max-width:320px) {
+  p {
+    position: relative;
+    font-family: $paragraphs;
+    font-size: 18px;
+  }
+}
+
+h1 {
+  font-family: $titles;
+  font-size: 35px; 
+  font-weight: 500;
+}
+
+@media (max-width:1920px) {
   h2 {
     font-family: $links;
-    font-size: 23px; 
+    font-size: 30px; 
     font-weight: 700;
     color: black;
     &:hover {
@@ -63,13 +88,40 @@ h1 {
   }
   h3 {
     font-family: $titles;
-    font-size: 20px; 
+    font-size: 28px; 
     font-weight: 700;
   }
   
   h4 {
     font-family: $titles;
-    font-size: 17px; 
+    font-size: 27px; 
+    font-weight: 700;
+    text-align: center;
+  }
+}
+
+@media (max-width:1024px) {
+  h2 {
+    font-family: $links;
+    font-size: 30px; 
+    font-weight: 700;
+    color: black;
+    &:hover {
+      transform: rotateX(360deg);
+      transition-duration: 0.5s;
+      //transform: scale(1.1);
+      color: rgb(0, 225, 255);
+    }
+  }
+  h3 {
+    font-family: $titles;
+    font-size: 28px; 
+    font-weight: 700;
+  }
+  
+  h4 {
+    font-family: $titles;
+    font-size: 27px; 
     font-weight: 700;
     text-align: center;
   }
@@ -78,7 +130,7 @@ h1 {
 @media (max-width:768px) {
   h2 {
     font-family: $links;
-    font-size: 20px; 
+    font-size: 27px; 
     font-weight: 700;
     color: black;
     &:hover {
@@ -90,13 +142,13 @@ h1 {
   }
   h3 {
     font-family: $titles;
-    font-size: 17px; 
+    font-size: 24px; 
     font-weight: 700;
   }
   
   h4 {
     font-family: $titles;
-    font-size: 15px; 
+    font-size: 23px; 
     font-weight: 700;
     text-align: center;
   }

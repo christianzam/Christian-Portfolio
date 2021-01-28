@@ -2,14 +2,57 @@
   background-color: #000000;
 }
 
-.footer-links {
-  font-family: $links;
-  font-size: 23px;
-  &:hover {
-    //transform: rotateY(360deg);
-    transition-duration: 0.3s;
-    transform: scale(1.5);
-    color: rgb(0, 225, 255);
+
+
+@media (max-width:1920px) {
+  .footer-links {
+    font-family: $links;
+    font-size: 30px;
+    &:hover {
+      //transform: rotateY(360deg);
+      transition-duration: 0.3s;
+      transform: scale(1.5);
+      color: rgb(0, 225, 255);
+    }
   }
 }
 
+@media (max-width:1024px) {
+  .footer-links {
+    font-family: $links;
+    font-size: 30px;
+    &:hover {
+      //transform: rotateY(360deg);
+      transition-duration: 0.3s;
+      transform: scale(1.5);
+      color: rgb(0, 225, 255);
+    }
+  }
+}
+
+@media (max-width:768px) {
+  .footer-links {
+    font-family: $links;
+    font-size: 20px;
+    &:hover {
+      //transform: rotateY(360deg);
+      transition-duration: 0.3s;
+      transform: scale(1.5);
+      color: rgb(0, 225, 255);
+    }
+  }
+}
+
+
+@media (max-width:320px) {
+  .footer-links {
+    font-family: $links;
+    font-size: 25px;
+    &:hover {
+      //transform: rotateY(360deg);
+      transition-duration: 0.3s;
+      transform: scale(1.5);
+      color: rgb(0, 225, 255);
+    }
+  }
+}

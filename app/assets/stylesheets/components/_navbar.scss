@@ -8,6 +8,21 @@
     background-color: black;
   }
 
+  @media (max-width:1920px) {
+    .navbar-links {
+      font-family: $links;
+      font-size: 27px;
+      font-weight: 500;
+      margin-right: 9%;
+      color: rgb(255, 255, 255);
+      &:hover {
+        transition-duration: 0.3s;
+        transform: scale(1.05);
+        color: rgb(255, 255, 125);
+      }
+    }
+  }
+
   @media (max-width:1024px) {
     .navbar-links {
       font-family: $links;
