@@ -20,6 +20,70 @@
   padding-right: 5%;
 }
 
+.projects-banner-grid {
+  display: grid;
+  grid-gap: 0.1em;
+  grid-template-columns: 1fr;
+  padding: 1%;
+}
+
+@media (min-width: 40em) {
+  .projects-banner-grid {
+    grid-template-columns: 2fr 1fr;   
+  }
+}
+//-----------------------------Animation in banner ----------------
+.stretch-animation {
+  animation-duration: 2.2s;
+  animation-name: slidein;
+  animation-iteration-count: 1;
+}
+
+@keyframes slidein {
+  from {
+    transform: translateX(20%) scaleX(1.5);
+  }
+  to {
+    transform: translateX(0) scaleX(1);
+  }
+}
+
+.projects-banner-title {
+font-family: $titles;
+font-size: calc(15px + 5vw);
+line-height: calc(14px + 3.3vw);
+color: white;
+//-webkit-text-fill-color: black; /* Will override color (regardless of order) */
+//-webkit-text-stroke-width: 0.5px;
+//-webkit-text-stroke-color: white;
+}
+
+.projects-banner-title-container {
+  margin-top: 20%;
+}
+
+.projects-banner-clock-container {
+  padding-top: 0.5px;
+  padding-left: 3%;
+}
+
+.grid-space-projects {
+  display: none;
+}
+
+arrows-projects {
+  margin-left: 80%;
+}
+
+#arrows-white-color {
+  font-size: calc(35px + 3vw);
+  &:hover {
+    transition-duration: 0.3s;
+    transform: scale(1.2);
+    cursor: pointer;      
+  }
+}
+
 //-------------------------Middle Content Grid--------------------
 
 img {

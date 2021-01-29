@@ -1,14 +1,25 @@
-<div class="banner-projects" id="clicker">
-    
-    
-    <div id="random-words">HELLO</div>
-	  
+<div class="banner-projects projects-banner-grid ">
+  <div class="projects-banner-title-container">
+    <div class="stretch-animation projects-banner-title"> 
+        SOME P<span style="color:yellow;">RO</span>JECTS<br>&nbsp;&nbsp;&nbsp;I HAVE<br>&nbsp;W<span style="color:yellow;">OR</span>KED ON
+    </div>
+    <div class="projects-banner-clock-container">  
+    <p id="show-date"></p>
+    </div>
+  </div>
+  <div></div> 
+  <div></div> 
+    <arrows-projects>
+      <div id="arrows-white-color">
+        <%= link_to '', "#{pages_projects_path}#chinampa_anchor", class: "fas fa-angle-double-down" , style: "color:white;"%>
+      </div>
+    </arrows-projects> 
 </div>
 <%# ---------------------------------------CHINAMPA------------------------------------- %>
 <div class="box">
 <main class="grid">
   <header> 
-    <chinampa-title>My Chinampa<%= image_tag("chinampa_logo_round.png", :class => "chinampa_logo_round", alt: "upload") %></chinampa-title>
+    <chinampa-title id="chinampa_anchor">My Chinampa<%= image_tag("chinampa_logo_round.png", :class => "chinampa_logo_round", alt: "upload") %></chinampa-title>
     <h2><a href=https://www.mychinampa.com/ target="_blank">www.mychinampa.com</a></h2>
     <p>My Chinampa is a web application designed to allow people to improve a living space advising on how to look after the 
       health of their own catalogue of indoor and outdoor plants, includes detailed tutorials, an extensive database of indoor and outdoor plant species 
