@@ -14,11 +14,12 @@ import 'bootstrap';
 //import { dynamicTextTypedJS2 } from '../components/dynamic_text_typed_js_2';
 //import { randomWords} from "../components/random_words";
 //import { animationTopBottomButton } from "../components/animation_top_bottom_button";
-import { projectsAnimation } from "../components/projects_animation";
+//import { projectsAnimation } from "../components/projects_animation";
+//import { showDate} from "../components/show_date";
 import { initUpdateNavbarOnScroll } from '../components/navbar';
 import { dynamicTextTypedJS } from '../components/dynamic_text_typed_js';
 import { movingArrows } from "../components/moving_arrows";
-//import { showDate} from "../components/show_date";
+import { stretchingWords } from "../components/stretching_words";
 
 document.addEventListener('turbolinks:load', () => {
   //initSweetalert();
@@ -26,11 +27,12 @@ document.addEventListener('turbolinks:load', () => {
   //dynamicTextTypedJS2();
   //randomWords();
   //animationTopBottomButton();
-  projectsAnimation();
+  //projectsAnimation();
+  //showDate();
   initUpdateNavbarOnScroll();
   dynamicTextTypedJS();
   movingArrows();
-  //showDate();
+  stretchingWords();
 });
 
 // Uncomment to copy all static images under ../images to the output folder and reference

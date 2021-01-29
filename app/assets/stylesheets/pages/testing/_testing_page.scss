@@ -1,0 +1,49 @@
+.stretch-animation {
+  animation-duration: 1.2s;
+  animation-name: slidein;
+  animation-iteration-count: 1;
+  &:hover {
+    transition-duration: 0.3s;
+    transform: scale(1.05);
+    color: rgb(255, 255, 125);
+  }
+}
+
+
+
+@keyframes slidein {
+  from {
+    transform: translateX(100%) scaleX(5);
+  }
+  to {
+    transform: translateX(0) scaleX(1);
+  }
+}
+
+
+/*
+
+// PROJECTS-ANIMATION CSS FOR projects_animation.js
+
+#projects-animation {
+  position: relative;
+  font-size: 40px;
+  font-family: $links;
+}
+
+// Chrome, Safari, Opera 
+@-webkit-keyframes mymove {
+  from {top: 0px;}
+  to {top: 100px;}
+}
+
+@keyframes mymove {
+  from {top: 0px;}
+  to {top: 100px;}
+}
+
+// HTML
+
+<div id="projects-animation">WORD TO START WITH</div>
+
+*/
