@@ -1,32 +1,30 @@
-/*  THIS ANIMATION MOVES VERTICALLY CHANGING TEXT EVERY CYCLE
+/*
 
+// This animation runs from top to bottom with one iteration transforming text
 
-------CSS-------- 
-#myDIV {
+// PROJECTS-ANIMATION CSS FOR projects_animation.js
+
+#projects-animation {
   position: relative;
   font-size: 40px;
-  font-family: $titles;
-  &:hover {
-    color: yellow;
-    transition-duration: 0.3s;
-    cursor: pointer;
-  }
+  font-family: $links;
 }
 
 // Chrome, Safari, Opera 
 @-webkit-keyframes mymove {
   from {top: 0px;}
-  to {top: 200px;}
+  to {top: 100px;}
 }
 
 @keyframes mymove {
   from {top: 0px;}
-  to {top: 200px;}
+  to {top: 100px;}
 }
 
-// ----------HTML-----------------
-// add the below to home.html.erb
-// <div id="myDIV" class="myFunction">ABOUT</div>
+// HTML
+
+<div id="projects-animation">WORD TO START WITH</div>
+
 */
 const projectsAnimation = () => {
     
@@ -65,14 +63,7 @@ const projectsAnimation = () => {
           document.getElementById("projects-animation").classList.add('mymove');
         });
       });
-      
-    });
-  
+    });  
 };
 
-
 export { projectsAnimation };
-
-//const x = document.getElementById("myDIV");
-// Start the animation with JavaScript
-
