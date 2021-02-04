@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
-  get 'pages/contact'
-  get 'pages/projects'
-  get 'pages/testing_page'
   root to: 'pages#home'
+  get 'pages/projects' 
+  # get 'projects', to: 'pages#projects' FOREIGN CODE
+  resources :contacts, only: [:new, :create]
 end

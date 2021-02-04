@@ -1,0 +1,24 @@
+<div class="banner-contact"></div>
+
+<section>
+  <div class="contact-form-container">
+    <form action="">
+        <%= simple_form_for @contact do |f| %>
+          
+            <div class="form-group">
+              <%= f.input :name, label: 'Your name please', error: 'Username is mandatory, please specify one' %>
+              <%= f.input :email,
+                    error: 'You need to add a valid email',
+                    required: true,
+                    autofocus: true,
+                    input_html: { autocomplete: "email" } %>
+              <%= f.input :message, :as => :text %>
+            </div>
+
+                <%= f.button :submit, 'Send Message', class: 'send-button'%>
+
+        <% end %>
+
+    </form>
+  </div>
+</section>

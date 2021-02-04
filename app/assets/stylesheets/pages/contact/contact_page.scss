@@ -1,6 +1,75 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
 
+.banner-contact {
+  background-color: black;
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  min-height: 50vh !important;
+  color: #eee;
+  padding-top: 20vh;
+  padding-left: 5%;
+  padding-right: 5%;
+}
 
+section {
+  height: 90vh;
+  width: 100%;
+  background-color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+.contact-form-container {
+  width: 80%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0px 0px 20px gray;
+  background-color: white;
+  margin-bottom: 20px;
+  height: auto;
+}
+
+.form-group {
+  width: 100%;
+  margin-top: 20px;
+  font-size: 20px;
+  font-family: $paragraphs;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  padding: 5px;
+  border: 1px solid rgba(89, 72, 241, 0.479);
+  border-radius: 2%; 
+}
+
+.textarea {
+  resize: vertical;
+}
+ 
+.send-button {
+  width: 100%;
+  outline: none;
+  border: none;
+  padding: 20px;
+  background-color: cadetblue;
+  font-size: 15px;
+  border-radius: 1%;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  cursor: pointer;
+  margin-top: 10px;
+}
 
 
 
