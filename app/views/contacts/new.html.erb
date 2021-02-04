@@ -14,8 +14,10 @@
                     input_html: { autocomplete: "email" } %>
               <%= f.input :message, :as => :text %>
             </div>
-
-                <%= f.button :submit, 'Send Message', class: 'send-button'%>
+              <%= f.button :submit, 'Send Message', class: 'send-button'%>
+              <div class= "hidden">
+                <%= f.input :nickname, :hint => 'Leave this field blank!' %>
+              </div>
 
         <% end %>
 

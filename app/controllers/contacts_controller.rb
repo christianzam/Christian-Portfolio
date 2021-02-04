@@ -1,5 +1,5 @@
 class ContactsController < ApplicationController
-  def new 
+  def new
     @contact = Contact.new
   end
 
@@ -7,15 +7,10 @@ class ContactsController < ApplicationController
     @contact = Contact.new(params[:contact])
     @contact.request = request
     if @contact.deliver
-      flash.now[:error] = nil
-      redirect_to root_path, notice: 'Message sent successfully'
+      flash.now[:notice] = 'Thank you for your message. We will contact you soon!'
     else
-      flash.now[:error] = 'Cannot send message'
+      flash.now[:error] = 'Cannot send message.'
       render :new
     end
   end
-
 end
-
-
-
