@@ -23,6 +23,7 @@ gem 'font-awesome-sass', '~> 5.6.1'
 gem 'simple_form'
 gem 'mail_form'
 gem 'devise'
+gem 'dotenv-rails', groups: [:development, :test]
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
