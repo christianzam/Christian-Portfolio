@@ -3,7 +3,6 @@
   color: white;
   height: auto;
   min-height: 100vh !important;
-  
 }
 
 .grid {
@@ -24,8 +23,6 @@
 
 .banner-paragraph-home {
   font-family: $paragraphs;
-  //font-size: 30px; //3vw;
-  //line-height: 35px; //3.5vw;
   font-size: calc(9px + 2vw);
   line-height: calc(11px + 2.5vw);
   margin-top: 3%;
@@ -42,7 +39,6 @@
 .dynamic-text-font {
   position: absolute;
   font-family: $titles;
-  //font-size: 3.7vw;
   font-size: calc(9px + 3.3vw);
 }
 
@@ -54,59 +50,26 @@ display: none;
   margin-top: 55%;
   margin-right: 20%;
 }
-// ------ANIMATION ABOUT/MYSELF  CSS-----------------------------------------------------------
+// ------ANIMATION ABOUT/MYSELF CSS-----------------------------------------------------------
 
 .about-myself:after {
   content: "ABOUT";
   font-family: $paragraphs;
-  //font-size: 5vw;
   font-size: calc(11px + 3.3vw);
   color: white;
-  transition-timing-function: ease-out;
-  transition-duration: 0.5s;
 }
 
 
 .about-myself:hover:after{
   content: 'MYSELF';
-  //margin-right: 10%;
   font-family: $paragraphs;
-  //font-size: 5vw;
   font-size: calc(11px + 3.3vw);
   color: yellow;
   cursor: pointer;
-
+  transition-duration: 0.7s;
+  transition-timing-function: ease-out;
 }
-
-/*
-.about-text {
-  position: relative;
-  font-size: 60px;
-  font-family: $paragraphs;
-}
-
-@-webkit-keyframes right {
-  0% { right: 0px; }
-  50% { right: 100px; }
-  100% { right: 0px; }
-}
-
-.animate {
-  -webkit-animation: right 2s;
-  -moz-animation: right 2s;
-  -webkit-animation-iteration-count: 2;
-  -moz-animation-iteration-count: 2;
-}
-
-
-@-moz-keyframes right {
-    0% { right: 0px; }
-   50% { right: 350px; }
-  100% { right: 0px; }
-}
-*/
-//--------------------First container Biography--------------------------------
-
+//--------------------First container/Biography--------------------------------
 .first-container-home {
   background-color: $first-background;
   margin-top: 5vmax;
@@ -189,10 +152,9 @@ display: none;
   line-height: 3px;
   letter-spacing: 2px;
 }
-//--------------------Second container Hobbies&Interests------------------------
+//--------------------Second container/Hobbies&Interests------------------------
 .second-container-home {
   background-color: black;
-  //width: 100%;
   margin-top: 5vmax;
   height: auto;
   min-height: 100% !important;

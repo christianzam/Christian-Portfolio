@@ -1,21 +1,46 @@
-<div class="banner-contact"></div>
-
-<section>
-  <div class="contact-form-container">
-        <%= simple_form_for @contact do |f| %>
-            <div class="form-group">
-              <%= f.input :name, label: 'Your name please', error: 'Username is mandatory, please specify one' %>
-              <%= f.input :email,
-                    error: 'You need to add a valid email',
-                    required: true,
-                    autofocus: true,
-                    input_html: { autocomplete: "email" } %>
-              <%= f.input :message, :as => :text %>
-            </div>
-              <%= f.button :submit, 'Send Message', class: 'send-button'%>
-            <div class= "hidden">
-              <%= f.input :nickname, :hint => 'Leave this field blank!' %>
-            </div>
-        <% end %>  
+<div class="banner-contact">
+  <div class="contact-banner-title">
+    GET&nbsp;&nbsp;<span style="color:yellow;">IN</span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TOUCH
   </div>
-</section>
+</div>
+
+<div class="first-container-contact">
+  <div class="contact-form-grid">
+    <div class="contact-text-container">
+      <div class="chat-title">SHALL<span style="color:yellow;"> WE </span><br>&nbsp;&nbsp;HAVE A CHAT?</div>
+      <div class="chat-text">
+        <p><br>About how to <span style="color:yellow;">collaborate</span> with your company, organization or individually. 
+          <br>
+          Even though I take things seriously I excel within an atmosphere where we can explore options for real day to day business challenges. 
+          <br>
+          I believe loyalty goes a long way and it will always be a reason to be self-motivated.
+        </p>
+      </div>
+      <div class="chat-text">
+        <p class="icon-item"><i class="far fa-envelope"></i>&nbsp;&nbsp;ContactChristianZamora@gmail.com</p>
+        <p class="icon-item"><i class="fab fa-whatsapp"></i>&nbsp;&nbsp;Send a Watsapp text</p>
+      </div>
+    </div>
+    <div class="contact-form-container">
+      <%= simple_form_for @contact do |f| %>
+          <div class="form-group">
+            <%= f.input :name, label: false, placeholder: 'Name *', error: 'Username is mandatory, please specify one' %>
+            <%= f.input :email, label: false, placeholder: 'E-mail *',
+                  error: 'You need to add a valid email',
+                  required: true,
+                  autofocus: true,
+                  input_html: { autocomplete: "email" } %>
+            <%= f.input :message, label: false, placeholder: 'Message *', :as => :text, :input_html => { 'rows' => 5, 'cols' => 10 } %>
+          </div>
+            <%= f.button :submit, 'Send Message', class: 'send-button'%>
+          <div class= "hidden">
+            <%= f.input :nickname, :hint => 'Leave this field blank!' %>
+          </div>
+      <% end %>
+    </div>
+  </div>
+  <div class="foot-text">
+    If you have regard for what you just read, feel free to contact me through any platform on this website.&nbsp;&nbsp;<i class="fas fa-smile"></i>
+  </div>   
+</div>
+
