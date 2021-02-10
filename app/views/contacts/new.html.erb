@@ -18,7 +18,7 @@
       <div class="chat-text">
         <ul>
           <li class="list-font-size"><a href="mailto:contactchristianzamora@gmail.com" class="list-font-size"><i class="far fa-envelope icon-item"></i>&nbsp;&nbsp;ContactChristianZamora@gmail.com</li></a>
-          <li class="list-font-size clipboard"><i class="fas fa-copy icon-item"></i>&nbsp;&nbsp;Copy E-mail to clipboard</li>
+          <li class="list-font-size clipboard" onmouseout="outFunc()"><i class="fas fa-copy icon-item"></i>&nbsp;&nbsp;<span onclick="copyEmail()">Copy Email to clipboard</span></li><span class="tooltiptext copy-alert" id="myTooltip"></span>
           <li class="list-font-size"><a href="https://wa.me/447794848364?text=I'm%20interested%20in%20your%20car%20for%20sale" class="list-font-size" target="_blank"><i class="fab fa-whatsapp icon-item"></i>&nbsp;&nbsp;Conversation</a></li>
         </ul>
       </div>
@@ -46,3 +46,21 @@
   </div>   
 </div>
 
+<div class="text-field">
+<input type="text" value="contactchristianzamora@gmail.com" id="eMailAddress">
+</div>
+<script>
+function copyEmail() {
+  var copyText = document.getElementById("eMailAddress");
+  console.log("copy please");
+  copyText.select();
+  copyText.setSelectionRange(0, 99999);
+  document.execCommand("copy");
+  var tooltip = document.getElementById("myTooltip");
+  tooltip.innerHTML = "Copied: " + copyText.value;
+}
+function outFunc() {
+  var tooltip = document.getElementById("myTooltip");
+  tooltip.innerHTML = "";
+}
+</script>

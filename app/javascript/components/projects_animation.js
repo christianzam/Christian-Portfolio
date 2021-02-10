@@ -25,7 +25,7 @@
 
 <div id="projects-animation">WORD TO START WITH</div>
 
-*/
+
 const projectsAnimation = () => {
     
   const x = document.getElementById("projects-animation");
@@ -38,8 +38,7 @@ const projectsAnimation = () => {
       x.addEventListener("webkitAnimationIteration", myRepeatFunction);
       x.addEventListener("webkitAnimationEnd", myEndFunction);
       
-      
-      
+          
       function myStartFunction() {
         this.innerHTML = "I'VE PLAYED HARD";
         this.style.color = "yellow";
@@ -67,3 +66,4 @@ const projectsAnimation = () => {
 };
 
 export { projectsAnimation };
+*/

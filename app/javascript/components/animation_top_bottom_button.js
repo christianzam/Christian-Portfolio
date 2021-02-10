@@ -46,7 +46,7 @@
       </div>
     </div>
 
-*/
+
 
 const animationTopBottomButton = () => {
   const button = document.querySelector("#clicker");
@@ -64,3 +64,4 @@ const animationTopBottomButton = () => {
 };
 
 export { animationTopBottomButton };
+*/

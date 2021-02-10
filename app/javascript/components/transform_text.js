@@ -20,7 +20,6 @@
 // add the below to PAGE_NAME.html.erb
 // <h1 class="about-text" id="about-myself"> ABOUT </h1> 
 
-*/
 
 const transformText = () => {
   const bannerText = document.querySelector("#about-myself");
@@ -31,3 +30,5 @@ const transformText = () => {
 };
 
 export { transformText };
+
+*/

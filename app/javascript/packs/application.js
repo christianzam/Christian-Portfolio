@@ -19,7 +19,8 @@ import 'bootstrap';
 import { initUpdateNavbarOnScroll } from '../components/navbar';
 import { dynamicTextTypedJS } from '../components/dynamic_text_typed_js';
 import { movingArrows } from "../components/moving_arrows";
-import { stretchingWords } from "../components/stretching_words";
+//import { stretchingWords } from "../components/stretching_words";
+//import { copyEmail } from "../components/copy_email";
 
 document.addEventListener('turbolinks:load', () => {
   //initSweetalert();
@@ -32,7 +33,8 @@ document.addEventListener('turbolinks:load', () => {
   initUpdateNavbarOnScroll();
   dynamicTextTypedJS();
   movingArrows();
-  stretchingWords();
+  //stretchingWords();
+  //copyEmail();
 });
 
 // Uncomment to copy all static images under ../images to the output folder and reference

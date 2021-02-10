@@ -152,3 +152,105 @@ li {
   height: auto;
   min-height: 40vh !important;
 }
+
+//---------------------------TOOLTIP---------------------
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 140px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -75px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+@media (max-width:1920px) {
+  .copy-alert {
+    position: fixed;
+    bottom: 20%;
+    right: 40%;
+    z-index: 1000;
+    background-color: black;
+    color: white;
+    font-family: $paragraphs;
+  }
+}
+
+@media (max-width:1024px) {
+  .copy-alert {
+    position: fixed;
+    bottom: 20%;
+    right: 20%;
+    z-index: 1000;
+    background-color: black;
+    color: white;
+    font-family: $paragraphs;
+  }
+}
+
+@media (max-width:768px) {
+  .copy-alert {
+    position: fixed;
+    bottom: 30%;
+    right: 15%;
+    z-index: 1000;
+    background-color: black;
+    color: white;
+    font-family: $paragraphs;
+  }
+}
+
+@media (max-width:480px) {
+  .copy-alert {
+    position: fixed;
+    bottom: 40%;
+    z-index: 1000;
+    background-color: black;
+    color: white;
+    font-family: $paragraphs;
+  }
+}
+
+@media (max-width:320px) {
+  .copy-alert {
+    position: fixed;
+    bottom: 40%;
+    z-index: 1000;
+    background-color: black;
+    color: white;
+    font-family: $paragraphs;
+    font-size: 10px;
+  }
+}
+
+.text-field {
+  position: absolute;
+  background-color: black;
+  z-index: -10;
+  margin: 0px;
+  padding: 0px;
+}
