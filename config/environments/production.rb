@@ -66,7 +66,8 @@ Rails.application.configure do
   
   # Line added following rubyonrails tutorial
   # If getting the error ActionView::Template::Error: Missing host to link to! Please provide the :host parameter, set default_url_options[:host], or set :only_path to true
-  # Add this line => Rails.application.routes.default_url_options[:host] = 'https://christian-zamora.herokuapp.com/' 
+  # Add this line => 
+  Rails.application.routes.default_url_options[:host] = 'https://christian-zamora.herokuapp.com/' 
   config.action_mailer.perform_deliveries = true
   config.action_mailer.default_url_options = { host: 'https://christian-zamora.herokuapp.com/' }
   config.action_mailer.delivery_method = :smtp
