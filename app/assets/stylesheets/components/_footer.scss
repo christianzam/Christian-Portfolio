@@ -1,8 +1,8 @@
 .footer {
   background-color: #000000;
+  padding-left: 25%;
+  padding-right: 25%;
 }
-
-
 
 @media (max-width:1920px) {
   .footer-links {
@@ -12,7 +12,6 @@
       //transform: rotateY(360deg);
       transition-duration: 0.3s;
       transform: scale(1.5);
-      color: rgb(0, 225, 255);
     }
   }
 }
@@ -25,7 +24,6 @@
       //transform: rotateY(360deg);
       transition-duration: 0.3s;
       transform: scale(1.5);
-      color: rgb(0, 225, 255);
     }
   }
 }
@@ -38,11 +36,9 @@
       //transform: rotateY(360deg);
       transition-duration: 0.3s;
       transform: scale(1.5);
-      color: rgb(0, 225, 255);
     }
   }
 }
-
 
 @media (max-width:320px) {
   .footer-links {
@@ -52,7 +48,6 @@
       //transform: rotateY(360deg);
       transition-duration: 0.3s;
       transform: scale(1.5);
-      color: rgb(0, 225, 255);
     }
   }
 }

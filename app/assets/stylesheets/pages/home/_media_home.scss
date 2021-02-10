@@ -2,15 +2,11 @@
 .chris-pic {
   max-width: 120%;
   height: auto;  
-  //position: absolute;
-  //display: block;
 }
 
 #chris-pic-border {
   margin-top: 25%;
   margin-left: 45%;
-  //top: 40%;
-  //left: 30%;
   border-radius: 1%;
   box-shadow: -95px -50px 60px 50px rgba(214, 214, 214, 0.25) inset; 
 }
@@ -49,35 +45,22 @@
 .hobbies-paragraph {
   width: 80%;
   height: auto;  
-  //position: absolute;
-  //padding-top: 15%;
-  //padding-left: 10%;
-
 }
 
 #hobbies-paragraph-border {
   margin-top: 20%;
   margin-left: 15%
-  //right: 53%;
 }
 
-.margin {
-  //padding-top: 10%;
-}
 //-------------------------------------------------
 .pics-container {
   width: 45%;
-  height: 70%;
-  //position: absolute;
-  //top: 5%;
-  //left: 50%;
-  
+  height: 70%;  
 }
 
 .ski-pic-container {
   max-width: 70%;
   height: auto;
-  //position: relative;
   top: 15%;
   left: 15%;
   -ms-transform: rotate(-8deg); /* IE 9 */
@@ -96,7 +79,6 @@
 .bike-pic-container {
   max-width: 70%;
   height: auto;
-  //position: relative;
   top: 43%;
   left: 40%;
   -ms-transform: rotate(8deg); /* IE 9 */
@@ -113,9 +95,8 @@
 }
 //------------------------------------------------------
 .board-video-container {
-  max-width: 45%;
+  max-width: 40%;
   height: auto;
-  //position: relative;
   top: 75%;
   left: 18%;
   border-top: white 8px solid;
