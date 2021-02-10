@@ -60,22 +60,17 @@ Rails.application.configure do
   # config.active_job.queue_adapter     = :resque
   # config.active_job.queue_name_prefix = "Christian_Portfolio_production"
   
-  config.action_mailer.perform_caching = false
+  config.action_mailer.perform_caching = true
 
-  config.action_mailer.default_url_options = { host: 'christian-zamora.herokuapp.com' }
+  
   # Line added following rubyonrails tutorial
   # If getting the error ActionView::Template::Error: Missing host to link to! Please provide the :host parameter, set default_url_options[:host], or set :only_path to true
   # Add this line Rails.application.routes.default_url_options[:host] = 'yoursite.herokuapp.com'
-
-  # Ignore bad email addresses and do not raise email delivery errors.
-  # Set this to true and configure the email server for immediate delivery to raise delivery errors.
-  # config.action_mailer.raise_delivery_errors = false
-
-  config.action_mailer.delivery_method = :smtp
-  config.action_mailer.perform_deliveries = true
-  config.action_mailer.raise_delivery_errors = false
   config.action_mailer.default charset: 'utf-8'
-
+  config.action_mailer.perform_deliveries = true
+  config.action_mailer.default_url_options = { host: 'christian-zamora.herokuapp.com/' }
+  config.action_mailer.raise_delivery_errors = true
+  config.action_mailer.delivery_method = :smtp
   config.action_mailer.smtp_settings = {
     address: 'smtp.gmail.com',
     port: 587,
