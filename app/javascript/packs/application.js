@@ -16,11 +16,12 @@ import 'bootstrap';
 //import { animationTopBottomButton } from "../components/animation_top_bottom_button";
 //import { projectsAnimation } from "../components/projects_animation";
 //import { showDate} from "../components/show_date";
+//import { stretchingWords } from "../components/stretching_words";
 import { initUpdateNavbarOnScroll } from '../components/navbar';
 import { dynamicTextTypedJS } from '../components/dynamic_text_typed_js';
 import { movingArrows } from "../components/moving_arrows";
-//import { stretchingWords } from "../components/stretching_words";
-//import { copyEmail } from "../components/copy_email";
+
+
 
 document.addEventListener('turbolinks:load', () => {
   //initSweetalert();
@@ -30,11 +31,12 @@ document.addEventListener('turbolinks:load', () => {
   //animationTopBottomButton();
   //projectsAnimation();
   //showDate();
+  //stretchingWords();
   initUpdateNavbarOnScroll();
   dynamicTextTypedJS();
   movingArrows();
-  //stretchingWords();
-  //copyEmail();
+  
+  
 });
 
 // Uncomment to copy all static images under ../images to the output folder and reference
@@ -44,4 +46,4 @@ document.addEventListener('turbolinks:load', () => {
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
 
-console.log("hello world again");
+console.log("HELLO WORLD AGAIN, HAVE YOU FOUND WHAT YOU ARE LOOKING FOR?");

@@ -32,7 +32,7 @@
                   required: true,
                   autofocus: true,
                   input_html: { autocomplete: "email" } %>
-            <%= f.input :message, label: false, placeholder: 'Message *', :as => :text, :input_html => { 'rows' => 5, 'cols' => 10 } %>
+            <%= f.input :message, label: false, placeholder: 'Message *', :as => :text, :input_html => { 'rows' => 8, 'cols' => 10 } %>
           </div>
             <%= f.button :submit, 'Send Message', class: 'send-button'%>
           <div class= "hidden">
@@ -45,9 +45,9 @@
     If you have regard for what you just read, feel free to contact me through any platform on this website.&nbsp;&nbsp;<i class="fas fa-smile"></i>
   </div>   
 </div>
-
+<%# Added script below as Application JS is already using 3 JS files for all website %>
 <div class="text-field">
-<input type="text" value="contactchristianzamora@gmail.com" id="eMailAddress">
+  <input type="text" value="contactchristianzamora@gmail.com" id="eMailAddress">
 </div>
 <script>
 function copyEmail() {

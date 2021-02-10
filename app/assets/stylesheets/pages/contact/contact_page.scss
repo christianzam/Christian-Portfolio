@@ -110,8 +110,26 @@ li {
   margin-bottom: 5px;
   margin-top: 5px;
   padding: 5px;
-  border: 1px solid rgba(89, 72, 241, 0.479);
-  border-radius: 2%; 
+  color: white;
+  border: 2px solid white;
+  background-color: transparent; 
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: rgba(255, 255, 255, 0.9);
+  font-style: italic;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: rgba(255, 255, 255, 0.9);
+  font-style: italic;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: rgba(255, 255, 255, 0.9);
+  font-style: italic;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: rgba(255, 255, 255, 0.9);
+  font-style: italic;
 }
 
 .textarea {
