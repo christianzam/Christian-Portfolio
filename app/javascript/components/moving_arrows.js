@@ -1,3 +1,4 @@
+/*
 const movingArrows = () => {   
   const x = document.getElementById("myDIV");
     window.addEventListener("scroll", () => {
@@ -11,6 +12,6 @@ const movingArrows = () => {
 };
 
 export { movingArrows };
-
+*/
 //const x = document.getElementById("myDIV");
 // Start the animation with JavaScript

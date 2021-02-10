@@ -1,3 +1,4 @@
+/*
 import Typed from 'typed.js';
 
 const dynamicTextTypedJS = () => {
@@ -9,9 +10,9 @@ const dynamicTextTypedJS = () => {
     
   }); 
 }
-
 export { dynamicTextTypedJS };
 
-/* 'git push --force ^1000\n `pushed to origin with option force`'
+
+ 'git push --force ^1000\n `pushed to origin with option force`'
 
 */

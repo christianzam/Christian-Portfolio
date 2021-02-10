@@ -1,3 +1,4 @@
+/*
 function stretchingWords() {
 	document.querySelector('stretch-animation')
   var d = new Date();     
@@ -16,5 +17,5 @@ window.onload = stretchingWords;
 
 export { stretchingWords };
 
-
+*/
 

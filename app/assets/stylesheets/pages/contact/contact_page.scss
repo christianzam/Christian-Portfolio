@@ -6,9 +6,8 @@
 
 .banner-contact {
   background-color: black;
-  color: white;
   height: auto;
-  min-height: 80vh !important;
+  min-height: 40vh !important;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -16,9 +15,15 @@
 
 .contact-banner-title {
 font-family: $titles;
-font-size: calc(15px + 5vw);
-line-height: calc(14px + 3.3vw);
+font-size: calc(16px + 5.3vw);
+line-height: calc(15px + 3.6vw);
 color: white;
+}
+
+#bordered-letters {
+  -webkit-text-fill-color: black; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: white;
 }
 //--------------------First container/ContactForm--------------------------------
 .first-container-contact {
@@ -212,8 +217,8 @@ li {
     bottom: 20%;
     right: 40%;
     z-index: 1000;
-    background-color: black;
-    color: white;
+    background-color: rgba(0, 0, 0, 0.493);
+    color: yellow;
     font-family: $paragraphs;
   }
 }
@@ -224,8 +229,8 @@ li {
     bottom: 20%;
     right: 20%;
     z-index: 1000;
-    background-color: black;
-    color: white;
+    background-color: rgba(0, 0, 0, 0.493);
+    color: yellow;
     font-family: $paragraphs;
   }
 }
@@ -236,8 +241,8 @@ li {
     bottom: 30%;
     right: 15%;
     z-index: 1000;
-    background-color: black;
-    color: white;
+    background-color: rgba(0, 0, 0, 0.493);
+    color: yellow;
     font-family: $paragraphs;
   }
 }
@@ -247,8 +252,8 @@ li {
     position: fixed;
     bottom: 40%;
     z-index: 1000;
-    background-color: black;
-    color: white;
+    background-color: rgba(0, 0, 0, 0.493);
+    color: yellow;
     font-family: $paragraphs;
   }
 }
@@ -258,8 +263,8 @@ li {
     position: fixed;
     bottom: 40%;
     z-index: 1000;
-    background-color: black;
-    color: white;
+    background-color: rgba(0, 0, 0, 0.493);
+    color: yellow;
     font-family: $paragraphs;
     font-size: 10px;
   }
@@ -267,7 +272,7 @@ li {
 
 .text-field {
   position: absolute;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.514);
   z-index: -10;
   margin: 0px;
   padding: 0px;

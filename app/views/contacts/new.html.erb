@@ -1,6 +1,6 @@
 <div class="banner-contact">
-  <div class="contact-banner-title">
-    GET&nbsp;&nbsp;<span style="color:yellow;">IN</span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TOUCH
+  <div class="stretch-animation contact-banner-title">
+    <span id="bordered-letters">GET</span>&nbsp;<span style="color:yellow;">IN</span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id="bordered-letters">TOUCH</span>
   </div>
 </div>
 <div class="first-container-contact">
@@ -45,22 +45,29 @@
     If you have regard for what you just read, feel free to contact me through any platform on this website.&nbsp;&nbsp;<i class="fas fa-smile"></i>
   </div>   
 </div>
-<%# Added script below as Application JS is already using 3 JS files for all website %>
+<%# Added script below as Application JS is already using 2 JS files for all website %>
+<script>
+  function stretchingWords() {
+    document.querySelector('stretch-animation') 
+  }
+</script>
 <div class="text-field">
   <input type="text" value="contactchristianzamora@gmail.com" id="eMailAddress">
 </div>
+<p class="hidden" id="show-date"> <= Free clock!</p>
 <script>
-function copyEmail() {
-  var copyText = document.getElementById("eMailAddress");
-  console.log("copy please");
-  copyText.select();
-  copyText.setSelectionRange(0, 99999);
-  document.execCommand("copy");
-  var tooltip = document.getElementById("myTooltip");
-  tooltip.innerHTML = "Copied: " + copyText.value;
-}
-function outFunc() {
-  var tooltip = document.getElementById("myTooltip");
-  tooltip.innerHTML = "";
-}
+  function copyEmail() {
+    var copyText = document.getElementById("eMailAddress");
+    console.log("copy please");
+    copyText.select();
+    copyText.setSelectionRange(0, 99999);
+    document.execCommand("copy");
+    var tooltip = document.getElementById("myTooltip");
+    tooltip.innerHTML = "Copied: " + copyText.value;
+  }
+  function outFunc() {
+    var tooltip = document.getElementById("myTooltip");
+    tooltip.innerHTML = "";
+  }
 </script>
+
