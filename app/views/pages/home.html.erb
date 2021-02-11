@@ -25,7 +25,7 @@
     </div>
   </div>
   <div>
-    <span class="arrows" id="myDIV"><i class="fas fa-angle-double-down"></i></span>
+    <span class="arrows" id="moving-arrows-div"><i class="fas fa-angle-double-down"></i></span>
   </div>
 </div> 
 <%# --------------------------------2nd container/Hobbies---------------- %>
@@ -60,13 +60,14 @@
     loop: false, 
   }); 
 </script>
+
 <script>
-  const x = document.getElementById("myDIV");
+  const movingarrows = document.getElementById("moving-arrows-div");
     window.addEventListener("scroll", () => {
           window.requestAnimationFrame(function() {
-            document.getElementById("myDIV").classList.remove('mymove');   
+            document.getElementById("moving-arrows-div").classList.remove('arrowsmovement');   
             window.requestAnimationFrame(function() {
-              document.getElementById("myDIV").classList.add('mymove');
+              document.getElementById("moving-arrows-div").classList.add('arrowsmovement');
             });
           });
     });  
