@@ -17,83 +17,82 @@
 </div>
 <%# ---------------------------------------CHINAMPA------------------------------------- %>
 <div class="box">
-<main class="grid">
-  <header> 
-    <chinampa-title id="chinampa_anchor">My Chinampa<%= image_tag("chinampa_logo_round.png", :class => "chinampa_logo_round", alt: "upload") %></chinampa-title>
-    <h2><a href=https://www.mychinampa.com/ target="_blank">www.mychinampa.com</a></h2>
-    <p>My Chinampa is a web application designed to allow people to improve a living space advising on how to look after the 
-      health of their own catalogue of indoor and outdoor plants, includes detailed tutorials, an extensive database of indoor and outdoor plant species 
-      scraped from differents API's, all fully searchable and browsable. The web app allows you to set up watering, light 
-      exposure and fertilizing reminders programmed to be sent to a mobile device.
-    </p>
-  </header>
-  <article>
-    <div class="media">
-      <div class="asset">
-         <a href=https://www.mychinampa.com/ target="_blank"><%= image_tag("chinampa.png", :class => "my-chinampa-pic", alt: "upload") %></a>
+  <main class="grid">
+    <header> 
+      <chinampa-title id="chinampa_anchor">My Chinampa<%= image_tag("chinampa_logo_round.png", :class => "chinampa_logo_round", alt: "upload") %></chinampa-title>
+      <h2><a href=https://www.mychinampa.com/ target="_blank">www.mychinampa.com</a></h2>
+      <p class="aside-text">My Chinampa is a web application designed to allow people to improve a living space advising on how to look after the 
+        health of their own catalogue of indoor and outdoor plants, includes detailed tutorials, an extensive database of indoor and outdoor plant species 
+        scraped from differents API's, all fully searchable and browsable. The web app allows you to set up watering, light 
+        exposure and fertilizing reminders programmed to be sent to a mobile device.
+      </p>
+    </header>
+    <article>
+      <div class="media">
+        <div class="asset">
+          <a href=https://www.mychinampa.com/ target="_blank"><%= image_tag("chinampa.png", :class => "my-chinampa-pic", alt: "upload") %></a>
+        </div>
+        <div class="content">
+          <h4>Web development</h4>
+            <div class="aside-text">
+              My contributions were Active Record associations & validations, UI and UX design specks using Figma and Whimsical, 
+              MVC specks of User's model, Tutorials page and whole application design. 
+              In collaboration with <a href=https://github.com/Oscar-Duque target="_blank">Oscar Duque</a> as Product Owner, 
+              <a href=https://www.linkedin.com/in/corentin-julienne-260658146/ target="_blank">Corentin Julien</a> as Project Manager and
+              <a href=https://www.linkedin.com/in/agathelt/ target="_blank">Agathe Laburthe-Tolra</a> as Lead Developer.
+            </div>   
+        </div>
+      </div>    
+    </article>
+    <aside>
+      <h4>Programming Languages</h4>
+      <div class="aside-text">
+        Java Script, SASS, Ruby, PostgreSQL, HTML5 and Rails as framework.
+        <br>
+        Heroku is used as the platform to deploy the web app. It also includes a Twilio API to reach customers
+        through SMS's coded alongside sidekiq to allow users set customisable reminders.  
+        <br><br>
       </div>
-      <div class="content">
-        <h4>Web development</h4>
-          <div class="aside-text">
-            My contributions were Active Record associations & validations, UI and UX design specks using Figma and Whimsical, 
-            MVC specks of User's model, Tutorials page and whole application design. 
-            In collaboration with <a href=https://github.com/Oscar-Duque target="_blank">Oscar Duque</a> as Product Owner, 
-            <a href=https://www.linkedin.com/in/corentin-julienne-260658146/ target="_blank">Corentin Julien</a> as Project Manager and
-            <a href=https://www.linkedin.com/in/agathelt/ target="_blank">Agathe Laburthe-Tolra</a> as Lead Developer.
-          </div>   
-      </div>
-    </div>    
-  </article>
-  <aside>
-    <h4>Programming Languages</h4>
-    <div class="aside-text">
-      Java Script, SASS, Ruby, PostgreSQL, HTML5 and Rails as framework.
-      <br>
-      Heroku is used as the platform to deploy the web app. It also includes a Twilio API to reach customers
-      through SMS's coded alongside sidekiq to allow users set customisable reminders.  
-      <br><br>
-    </div>
-  </aside>
+    </aside>
 
-<%# ---------------------------------------Sportix------------------------------------- %>
-  <header> 
-    <div class="sportix-title"><%= image_tag("sportix_logo.png", :class => "sportix_logo_round", alt: "upload") %>SPORTIX</div>
-    <h2 id="sportix-h2"><a href=https://www.sportix.life/ target="_blank">https://sportix.life</a></h2>
-    <p id="sportix-text">An application we created inspired in the AirBnB website. The target is to reach people who would like to book available 
-        sports lessons in their area based on capacity and price. A user's profile allows to join group lessons as well as creating 
-        a group to instruct a lesson or a recreative activity of any kind.
-    </p>
-  </header>
-  <article>
-    <div class="media">
-      <div class="asset">
-        <a href=https://www.sportix.life/ target="_blank"><%= image_tag("sportix.png", :class => "sportix-pic", alt: "upload") %></a>
-      </div>
-      <div class="content">
-        <h4>Web development</h4>          
+  <%# ---------------------------------------Sportix------------------------------------- %>
+    <header> 
+      <div class="sportix-title"><%= image_tag("sportix_logo.png", :class => "sportix_logo_round", alt: "upload") %>SPORTIX</div>
+      <h2 id="sportix-h2"><a href=https://www.sportix.life/ target="_blank">https://sportix.life</a></h2>
+      <p class="aside-text" id="sportix-text">An application we created inspired in the AirBnB website. The target is to reach people who would like to book available 
+          sports lessons in their area based on capacity and price. A user's profile allows to join group lessons as well as creating 
+          a group to instruct a lesson or a recreative activity of any kind.
+      </p>
+    </header>
+    <article>
+      <div class="media">
+        <div class="asset">
+          <a href=https://www.sportix.life/ target="_blank"><%= image_tag("sportix.png", :class => "sportix-pic", alt: "upload") %></a>
+        </div>
+        <div class="content">
+          <h4>Programming Languages</h4>
           <div class="aside-text">
-          In this project my contributions were MVC specks of website Views, UI and UX design specks using Figma and Whimsical,
-          some Java Script functions and implementation, the whole application design and final presentation.
-          In collaboration with <a href=https://github.com/Oscar-Duque target="_blank">Oscar Duque</a> as Back-End Engineer, 
-          <a href=https://www.linkedin.com/in/corentin-julienne-260658146/ target="_blank">Corentin Julien</a> Lead Developer,
-          <a href=https://www.linkedin.com/in/agathelt/ target="_blank">Agathe Laburthe-Tolra</a> as Project Manager.
-        <</div> 
-      </div>
-    </div>    
-  </article>
-  <aside>
-    <h4>Programming Languages</h4>
-    <div class="aside-text">
-      The application includes Ruby, SASS, Bootsrap, PostgreSQL, HTML5 and the framework is Rails.
-      <br>
-      Heroku is used as the platform to deploy the web app. 
-      <br><br>
-    </div>
-  </aside>
-
-  <footer>
-  </footer>
-</main>
+            The application includes Ruby, SASS, Bootsrap, PostgreSQL, HTML5 and the framework is Rails.
+            <br>
+            Heroku is used as the platform to deploy the web app. 
+            <br><br>
+          </div>          
+        </div>
+      </div>    
+    </article>
+    <aside>
+      <h4>Web development</h4>
+      <div class="aside-text">
+        In this project my contributions were MVC specks of website Views, UI and UX design specks using Figma and Whimsical,
+        some Java Script functions and implementation, the whole application design and final presentation.
+        In collaboration with <a href=https://github.com/Oscar-Duque target="_blank">Oscar Duque</a> as Back-End Engineer, 
+        <a href=https://www.linkedin.com/in/corentin-julienne-260658146/ target="_blank">Corentin Julien</a> Lead Developer,
+        <a href=https://www.linkedin.com/in/agathelt/ target="_blank">Agathe Laburthe-Tolra</a> as Project Manager.
+      </div> 
+    </aside>
+    <footer>
+    </footer>
+  </main>
 </div>
 
 <div class="container">
@@ -103,7 +102,7 @@
           <a href= https://github.com/christianzam/rails-mister-cocktail target="_blank">
           <%= image_tag("mr_cocktail.png", :class => "card-exercise-pictures", alt: "upload") %>
           </a>
-          <p>My very first MVC app I made from scratch. Coded with Ruby and JS,
+          <p class="aside-text">My very first MVC app I made from scratch. Coded with Ruby and JS,
             includes a N:N (many to many) relationship database created with PostgreSQL. 
           </p>        
         </div>
@@ -113,7 +112,7 @@
         <a href= https://github.com/christianzam/GeoCode target="_blank">
         <%= image_tag("GeoCoder.png", :class => "card-exercise-pictures", alt: "upload") %>
         </a>
-        <p>This application gets GPS coordinates that uses AJAX and the MapBox Geocoding API, it displays a map showing the 
+        <p class="aside-text">This application gets GPS coordinates that uses AJAX and the MapBox Geocoding API, it displays a map showing the 
         input address.
         </p> 
       </div>
@@ -123,7 +122,7 @@
         <a href= https://github.com/christianzam/Refrain/blob/master/lib/refrain.rb target="_blank">
         <%= image_tag("refrain_rb.png", :class => "card-exercise-pictures", alt: "upload") %>
         </a>
-        <p>Ruby file coded specifically to understand how the order 
+        <p class="aside-text">Ruby file coded specifically to understand how the order 
           arguments are called in a method can often be a source of errors.
         </p> 
       </div>
