@@ -1,17 +1,30 @@
 /*
-const movingArrows = () => {   
-  const x = document.getElementById("myDIV");
+function movingArrows = () => {   
+  const arrowsmovingdown = document.getElementById("moving-arrows-div");
     window.addEventListener("scroll", () => {
+      window.requestAnimationFrame(function() {
+        document.getElementById("moving-arrows-div").classList.remove('arrowsmovement');   
           window.requestAnimationFrame(function() {
-            document.getElementById("myDIV").classList.remove('mymove');   
-            window.requestAnimationFrame(function() {
-              document.getElementById("myDIV").classList.add('mymove');
-            });
+            document.getElementById("moving-arrows-div").classList.add('arrowsmovement');
           });
-    });  
+      });
+    });   
 };
 
 export { movingArrows };
+
+or in HTML
+
+<script>
+  const movingarrows = document.getElementById("moving-arrows-div");
+    window.addEventListener("scroll", () => {
+          window.requestAnimationFrame(function() {
+            document.getElementById("moving-arrows-div").classList.remove('arrowsmovement');   
+            window.requestAnimationFrame(function() {
+              document.getElementById("moving-arrows-div").classList.add('arrowsmovement');
+            });
+          });
+    });  
+</script>
 */
-//const x = document.getElementById("myDIV");
-// Start the animation with JavaScript
+

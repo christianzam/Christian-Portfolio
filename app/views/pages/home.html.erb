@@ -24,8 +24,8 @@
       <span><%= link_to '', "#{root_path}#hobbies", class: "more-about-me-text"%></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   
     </div>
   </div>
-  <div>
-    <span class="arrows" id="moving-arrows-div"><i class="fas fa-angle-double-down"></i></span>
+  <div class="arrows" id="moving-arrows-div">
+     <%= link_to '', "#{root_path}#hobbies", class: "fas fa-angle-double-down" , style: "font-size: calc(16px + 7vw); color:black;"%>
   </div>
 </div> 
 <%# --------------------------------2nd container/Hobbies---------------- %>
@@ -59,15 +59,4 @@
     startDelay: 170,
     loop: false, 
   }); 
-</script>
-<script>
-  const movingarrows = document.getElementById("moving-arrows-div");
-    window.addEventListener("scroll", () => {
-          window.requestAnimationFrame(function() {
-            document.getElementById("moving-arrows-div").classList.remove('arrowsmovement');   
-            window.requestAnimationFrame(function() {
-              document.getElementById("moving-arrows-div").classList.add('arrowsmovement');
-            });
-          });
-    });  
 </script>

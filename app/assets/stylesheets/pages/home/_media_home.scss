@@ -24,23 +24,18 @@
   position: absolute;
   padding-left: 35%;
   padding-top: 0;
-  font-size: 25px;
-  font-family: $paragraphs;
-  //margin-left: 30%;
 }
 
 #moving-arrows-div {
   position: relative;
-  font-size: 6vw;
-  font-family: $titles;
 }
-
-.arrowsmovement {
-  -webkit-animation: down 2.5s;
-  -moz-animation: down 2.5s;
-  -webkit-animation-iteration-count: 2;
-  -moz-animation-iteration-count: 2;
-}
+// movingArrows.JS depends on the below CSS
+// .arrowsmovement {
+//   -webkit-animation: down 2.5s;
+//   -moz-animation: down 2.5s;
+//   -webkit-animation-iteration-count: 2;
+//   -moz-animation-iteration-count: 2;
+// }
 //--------------------------------------------- Hobbies ------------------------------
 .hobbies-paragraph {
   width: 80%;

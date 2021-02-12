@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>The page doesn't exist(404)</title>
+    <title>PageNotFound(404)</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
     <style>
@@ -39,7 +39,7 @@
       }
     </style>
   </head>
-  <body class="error404page">
+  <body onload="startTime()" class="error404page">
     <div class="dialog">
       <span id="typed-text"></span>
     </div>   
@@ -47,6 +47,7 @@
         SORRY, I don't like either when this happens  <span style="font-size: 1em; color: white;"><i class="fas fa-frown"></i></span>      
       </p>
       <a href="www.christian-zamora.com"><p><< back to www.christian-zamora.com</p></a>
+      <p id="clock"></p>
   </body>
 </html>
 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
@@ -58,3 +59,26 @@
     loop: false, 
   }); 
 </script>
+
+<script>
+  function startTime() {
+    var today = new Date();
+    var h = today.getHours();
+    var m = today.getMinutes();
+    var s = today.getSeconds();
+    m = checkTime(m);
+    s = checkTime(s);
+    document.getElementById('clock').innerHTML =
+    h + ":" + m + ":" + s;
+    var t = setTimeout(startTime, 500);
+  }
+  function checkTime(i) {
+    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+    return i;
+  }
+  </script>
+  
+   
+ 
+  
+ 
