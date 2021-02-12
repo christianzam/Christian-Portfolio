@@ -9,7 +9,7 @@ class ContactsController < ApplicationController
     @contact.request = request
     if @contact.deliver
       # flash.now[:notice] = 'Thank you for your message. I will contact pretty you soon!'
-      redirect_to new_contact_path, alert: 'BRILLIANT!, I will contact you pretty soon, thank you.'
+      redirect_to new_contact_path, alert: "BRILLIANT!, " + "" + " I will contact you pretty soon, thank you."
     else
       # flash.now[:error] = 'Oops! something is wrong, can you please send me an email instead?'
       # render :new
