@@ -1,67 +1,60 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>The page you were looking for doesn't exist (404)</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <style>
-  .rails-default-error-page {
-    background-color: #EFEFEF;
-    color: #2E2F30;
-    text-align: center;
-    font-family: arial, sans-serif;
-    margin: 0;
-  }
+  <head>
+    <title>The page doesn't exist(404)</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
 
-  .rails-default-error-page div.dialog {
-    width: 95%;
-    max-width: 33em;
-    margin: 4em auto 0;
-  }
+      .error404page {
+        background-color: black;
+        /* color: white; */
+        text-align: center;
+        font-family: 'PT Mono', monospace;
+        margin: 0;
+      }
 
-  .rails-default-error-page div.dialog > div {
-    border: 1px solid #CCC;
-    border-right-color: #999;
-    border-left-color: #999;
-    border-bottom-color: #BBB;
-    border-top: #B00100 solid 4px;
-    border-top-left-radius: 9px;
-    border-top-right-radius: 9px;
-    background-color: white;
-    padding: 7px 12% 0;
-    box-shadow: 0 3px 8px rgba(50, 50, 50, 0.17);
-  }
+      .error404page div.dialog {
+        width: 95%;
+        max-width: 33em;
+        margin: 3.5em auto 0;
+        font-size: calc(9px + 3.0vw);
+        
+      }
 
-  .rails-default-error-page h1 {
-    font-size: 100%;
-    color: #730E15;
-    line-height: 1.5em;
-  }
+      .error404page p {
+        font-size: calc(8px + 1.2vw);
+        color: white;
+        line-height: 2em;
+      }
 
-  .rails-default-error-page div.dialog > p {
-    margin: 0 0 1em;
-    padding: 1em;
-    background-color: #F7F7F7;
-    border: 1px solid #CCC;
-    border-right-color: #999;
-    border-left-color: #999;
-    border-bottom-color: #999;
-    border-bottom-left-radius: 4px;
-    border-bottom-right-radius: 4px;
-    border-top-color: #DADADA;
-    color: #666;
-    box-shadow: 0 3px 8px rgba(50, 50, 50, 0.17);
-  }
-  </style>
-</head>
+      .error404page div.dialog > p {
+        margin: 0 0 2em;
+        padding: 1em;
+      }
 
-<body class="rails-default-error-page">
-  <!-- This file lives in public/404.html -->
-  <div class="dialog">
-    <div>
-      <h1>The page you were looking for doesn't exist.</h1>
-      <p>You may have mistyped the address or the page may have moved.</p>
-    </div>
-    <p>If you are the application owner check the logs for more information.</p>
-  </div>
-</body>
+      .error404page a {
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body class="error404page">
+    <div class="dialog">
+      <span id="typed-text"></span>
+    </div>   
+      <p>
+        SORRY, I don't like either when this happens  <span style="font-size: 1em; color: white;"><i class="fas fa-frown"></i></span>      
+      </p>
+      <a href="www.christian-zamora.com"><p><< back to www.christian-zamora.com</p></a>
+  </body>
 </html>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+<script>
+  new Typed('#typed-text', {
+    strings: ["<span style='background-color: lightgrey'>ERROR 404</span>","<span style='background-color: lightgrey'>FILE NOT FOUND!</span>","<span style='background-color: lightgrey'>ERROR 404: FILE_NOT_FOUND!</span>"],
+    typeSpeed: 150,
+    startDelay: 570,
+    loop: false, 
+  }); 
+</script>
