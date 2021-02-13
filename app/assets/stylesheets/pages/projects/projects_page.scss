@@ -81,6 +81,7 @@ arrows-projects {
   padding-top: 10%;
   padding-left: 2.6%;
   padding-right: 2.6%;
+  //overflow: hidden;
 }
 
 img {
@@ -92,13 +93,14 @@ p {
   margin: 0 0 1em 0;
 }
 
-* { box-sizing: border-box; }
+// * { box-sizing: border-box; }
 
 .grid {
   display: grid;
   grid-gap: 1em;
-  grid-template-columns: 1fr;
+  //grid-template-columns: 1fr;
   padding: 10px;
+  grid-template-columns: minmax(0, 1fr);
 }
 
 .grid > * {
@@ -212,6 +214,15 @@ p {
   }
 }
 
+@media (max-width:200px) {
+  chinampa-title {
+    font-family: $titles;
+    font-size: 17px;
+    display: flex;
+    align-items: flex-start;
+  }
+}
+
   .chinampa_logo_round {
     width: 10%;
     height: auto;
@@ -269,6 +280,15 @@ p {
   .sportix-title {
     font-family: $titles;
     font-size: 30px;
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+@media (max-width:200px) {
+  .sportix-title {
+    font-family: $titles;
+    font-size: 17px;
     display: flex;
     justify-content: flex-end;
   }

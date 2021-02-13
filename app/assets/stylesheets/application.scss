@@ -180,3 +180,30 @@ h1 {
   }
 }
 
+@media (max-width:200px) {
+  h2 {
+    font-family: $links;
+    font-size: 10px; 
+    font-weight: 500;
+    color: black;
+    &:hover {
+      transform: rotateX(360deg);
+      transition-duration: 0.5s;
+      //transform: scale(1.1);
+      color: rgb(0, 225, 255);
+    }
+  }
+  h3 {
+    font-family: $titles;
+    font-size: 9px; 
+    font-weight: 400;
+  }
+  
+  h4 {
+    font-family: $titles;
+    font-size: 8px; 
+    font-weight: 300;
+    text-align: center;
+  }
+}
+
