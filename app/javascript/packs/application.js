@@ -9,11 +9,10 @@ import 'sweetalert';
 import 'sweetalert2';
 import 'bootstrap';
 
-//import { initSweetalert } from "../packs/init_sweetalert";
+
 //import { transformText } from "../components/transform_text";
 //import { dynamicTextTypedJS2 } from '../components/dynamic_text_typed_js_2';
 //import { randomWords} from "../components/random_words";
-//import { animationTopBottomButton } from "../components/animation_top_bottom_button";
 //import { projectsAnimation } from "../components/projects_animation";
 //import { stretchingWords } from "../components/stretching_words";
 //import { dynamicTextTypedJS } from '../components/dynamic_text_typed_js';
@@ -28,7 +27,6 @@ document.addEventListener('turbolinks:load', () => {
   //transformText();
   //dynamicTextTypedJS2();
   //randomWords();
-  //animationTopBottomButton();
   //projectsAnimation();
   //stretchingWords();
   //dynamicTextTypedJS();
