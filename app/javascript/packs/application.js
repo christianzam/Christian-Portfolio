@@ -9,11 +9,11 @@ import 'sweetalert';
 import 'sweetalert2';
 import 'bootstrap';
 
-import { showDate} from "../components/show_date";
+//import { showDate} from "../components/show_date";
 import { initUpdateNavbarOnScroll } from '../components/navbar';
 
 document.addEventListener('turbolinks:load', () => {
-  showDate();
+  //showDate();
   initUpdateNavbarOnScroll();
 });
 

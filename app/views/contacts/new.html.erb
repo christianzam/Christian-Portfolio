@@ -7,14 +7,14 @@
   <div class="contact-form-grid">
     <div class="contact-text-container">
       <div class="chat-title">SHALL<span style="color:yellow;"> WE </span><br>&nbsp;&nbsp;HAVE A CHAT?</div>
-      <div class="chat-text">
-        <p><br>About how to <span style="color:yellow;">collaborate</span> with your company, organization or individually. 
-          <br>
-          Even though I take things <span style="color:yellow;">seriously</span> I excel within an atmosphere <span style="color:yellow;">where</span> we can explore options for real day to day business challenges. 
-          <br>
-          I believe <span style="color:yellow;">loyalty</span> goes a long way and where it <span style="color:yellow;">exists</span> that's a reason to be self-motivated.
-        </p>
-      </div>
+        <div class="chat-text">
+          <p><br>About how to <span style="color:yellow;">collaborate</span> with your company, organization or individually. 
+            <br>
+            Even though I take things <span style="color:yellow;">seriously</span> I excel within an atmosphere <span style="color:yellow;">where</span> we can explore options for real day to day business challenges. 
+            <br>
+            I believe <span style="color:yellow;">loyalty</span> goes a long way and where it <span style="color:yellow;">exists</span> that's a reason to be self-motivated.
+          </p>
+        </div>
       <div class="chat-text">
         <ul>
           <li class="list-font-size"><a href="mailto:contactchristianzamora@gmail.com" class="list-font-size"><i class="far fa-envelope icon-item"></i>&nbsp;&nbsp;ContactChristianZamora@gmail.com</li></a>
@@ -33,26 +33,23 @@
                   autofocus: true,
                   input_html: { autocomplete: "email" } %>
             <%= f.input :message, label: false, placeholder: 'Message *', :as => :text, :input_html => { 'rows' => 8, 'cols' => 10 } %>
-          </div>
-            <%= f.button :submit, 'Send Message', class: 'send-button'%>
-          <div class= "hidden">
-            <%= f.input :nickname, :hint => 'Leave this field blank!' %>
-          </div>
+            </div>
+              <%= f.button :submit, 'Send Message', class: 'send-button'%>
+            <div class= "hidden">
+              <%= f.input :nickname, :hint => 'Leave this field blank!' %>
+            </div>
       <% end %>
     </div>
   </div>  
 </div>
-<%# Added script below as Application JS is already using 2 JS files for all website %>
+<div class="text-field">
+  <input type="text" value="contactchristianzamora@gmail.com" id="eMailAddress">
+</div>
 <script>
   function stretchingWords() {
     document.querySelector('stretch-animation') 
   }
 </script>
-<div class="text-field">
-  <input type="text" value="contactchristianzamora@gmail.com" id="eMailAddress">
-</div>
-<p class="hidden">Free clock below :)</p>
-<p class="hidden" id="show-date"></p>
 <script>
   function copyEmail() {
     var copyText = document.getElementById("eMailAddress");
@@ -68,4 +65,3 @@
     tooltip.innerHTML = "";
   }
 </script>
-

@@ -3,8 +3,8 @@
     <div class="dynamic-text-font" id="nav-typed-text"></div>
   </div>
     <div class="d-flex justify-content-end" id="word-about">
-    <%= link_to '', "#{root_path}#bio", class: "about-myself" %>   
-  </div>  
+      <%= link_to '', "#{root_path}#bio", class: "about-myself" %>   
+    </div>  
   <div class="banner-paragraph-home">
     <span class="text-justify">A full stack developer who <br></span><span> enjoys building and designing <br>   
     </span><span>Front</span><span style="color:yellow;"> & </span><span>Back-End applications</span>
@@ -14,7 +14,7 @@
 <%# --------------------------Firs container Biography------------------------------ %>
 <div class="biography-grid first-container-home" id="bio">  
   <div class="bio-pic-container"> 
-      <%= image_tag("chris_zam_pic.png", :class => "chris-pic", :id => "chris-pic-border", alt: "upload") %>
+    <%= image_tag("chris_zam_pic.png", :class => "chris-pic", :id => "chris-pic-border", alt: "upload") %>
   </div> 
   <div class="bio-paragraph-container">
     <%= image_tag("What_about_me_p.png", :class => "what-about-me-p", alt: "upload") %>
@@ -25,7 +25,7 @@
     </div>
   </div>
   <div class="arrows" id="moving-arrows-div">
-     <%= link_to '', "#{root_path}#hobbies", class: "fas fa-angle-double-down" , style: "font-size: calc(16px + 7vw); color:black;"%>
+    <%= link_to '', "#{root_path}#hobbies", class: "fas fa-angle-double-down" , style: "font-size: calc(16px + 7vw); color:black;"%>
   </div>
 </div> 
 <%# --------------------------------2nd container/Hobbies---------------- %>
@@ -50,7 +50,6 @@
     </div>
   </div> 
 </div>
-<p class="text-field" id="show-date"></p>
 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
 <script>
   new Typed('#nav-typed-text', {

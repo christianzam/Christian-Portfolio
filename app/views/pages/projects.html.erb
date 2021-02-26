@@ -1,10 +1,10 @@
 <div class="banner-projects projects-banner-grid ">
   <div class="projects-banner-title-container">
     <div class="stretch-animation projects-banner-title"> 
-        SOME P<span style="color:yellow;">RO</span>JECTS<br>&nbsp;&nbsp;&nbsp;I HAVE<br>&nbsp;W<span style="color:yellow;">OR</span>KED ON
+      SOME P<span style="color:yellow;">RO</span>JECTS<br>&nbsp;&nbsp;&nbsp;I HAVE<br>&nbsp;W<span style="color:yellow;">OR</span>KED ON
     </div>
     <div class="projects-banner-clock-container">  
-    <p id="show-date"></p>
+      <p id="clock"></p>
     </div>
   </div>
   <div></div> 
@@ -19,13 +19,15 @@
 <div class="box">
   <main class="grid">
     <header> 
-      <chinampa-title id="chinampa_anchor">My Chinampa<%= image_tag("chinampa_logo_round.png", :class => "chinampa_logo_round", alt: "upload") %></chinampa-title>
-      <h2><a href=https://www.mychinampa.com/ target="_blank">www.mychinampa.com</a></h2>
-      <p class="aside-text">My Chinampa is a web application designed to allow people to improve a living space advising on how to look after the 
-        health of their own catalogue of indoor and outdoor plants, includes detailed tutorials, an extensive database of indoor and outdoor plant species 
-        scraped from differents API's, all fully searchable and browsable. The web app allows you to set up watering, light 
-        exposure and fertilizing reminders programmed to be sent to a mobile device.
-      </p>
+      <chinampa-title id="chinampa_anchor">
+        My Chinampa<%= image_tag("chinampa_logo_round.png", :class => "chinampa_logo_round", alt: "upload") %>
+      </chinampa-title>
+        <h2><a href=https://www.mychinampa.com/ target="_blank">www.mychinampa.com</a></h2>
+        <p class="aside-text">My Chinampa is a web application designed to allow people to improve a living space advising on how to look after the 
+          health of their own catalogue of indoor and outdoor plants, includes detailed tutorials, an extensive database of indoor and outdoor plant species 
+          scraped from differents API's, all fully searchable and browsable. The web app allows you to set up watering, light 
+          exposure and fertilizing reminders programmed to be sent to a mobile device.
+        </p>
     </header>
     <article>
       <div class="media">
@@ -55,9 +57,11 @@
       </div>
     </aside>
 
-  <%# ---------------------------------------Sportix------------------------------------- %>
+   <%# ---------------------------------------Sportix------------------------------------- %>
     <header> 
-      <div class="sportix-title"><%= image_tag("sportix_logo.png", :class => "sportix_logo_round", alt: "upload") %>SPORTIX</div>
+      <div class="sportix-title"><%= image_tag("sportix_logo.png", :class => "sportix_logo_round", alt: "upload") %>
+        SPORTIX
+      </div>
       <h2 id="sportix-h2"><a href=https://www.sportix.life target="_blank">https://sportix.life</a></h2>
       <p class="aside-text" id="sportix-text">An application we created inspired in the AirBnB website. The target is to reach people who would like to book available 
           sports lessons in their area based on capacity and price. A user's profile allows to join group lessons as well as creating 
@@ -95,40 +99,59 @@
   </main>
 </div>
 
-<div class="container">
-  
-        <div class="card-exercise">
-          <h4> Mr.Cocktail </h4> 
-          <a href= https://github.com/christianzam/rails-mister-cocktail target="_blank">
-          <%= image_tag("mr_cocktail.png", :class => "card-exercise-pictures", alt: "upload") %>
-          </a>
-          <p class="aside-text">My very first MVC app I made from scratch. Coded with Ruby and JS,
-            includes a N:N (many to many) relationship database created with PostgreSQL. 
-          </p>        
-        </div>
+<div class="container"> 
+  <div class="card-exercise">
+    <h4> Mr.Cocktail </h4> 
+    <a href= https://github.com/christianzam/rails-mister-cocktail target="_blank">
+    <%= image_tag("mr_cocktail.png", :class => "card-exercise-pictures", alt: "upload") %>
+    </a>
+    <p class="aside-text">My very first MVC app I made from scratch. Coded with Ruby and JS,
+      includes a N:N (many to many) relationship database created with PostgreSQL. 
+    </p>        
+  </div>
 <%# -----------------------------GeoCode-------------------------------------- %>
-      <div class="card-exercise">
-        <h4> GeoCode </h4> 
-        <a href= https://github.com/christianzam/GeoCode target="_blank">
-        <%= image_tag("GeoCoder.png", :class => "card-exercise-pictures", alt: "upload") %>
-        </a>
-        <p class="aside-text">This application gets GPS coordinates that uses AJAX and the MapBox Geocoding API, it displays a map showing the 
-        input address.
-        </p> 
-      </div>
+  <div class="card-exercise">
+    <h4> GeoCode </h4> 
+    <a href= https://github.com/christianzam/GeoCode target="_blank">
+      <%= image_tag("GeoCoder.png", :class => "card-exercise-pictures", alt: "upload") %>
+    </a>
+    <p class="aside-text">This application gets GPS coordinates that uses AJAX and the MapBox Geocoding API, it displays a map showing the 
+      input address.
+    </p> 
+  </div>
 <%# -----------------------------Refrain.rb-------------------------------------- %>
-      <div class="card-exercise">
-        <h4>Refrain.rb</h4> 
-        <a href= https://github.com/christianzam/Refrain/blob/master/lib/refrain.rb target="_blank">
-        <%= image_tag("refrain_rb.png", :class => "card-exercise-pictures", alt: "upload") %>
-        </a>
-        <p class="aside-text">Ruby file coded specifically to understand how the order 
-          arguments are called in a method can often be a source of errors.
-        </p> 
-      </div>
+  <div class="card-exercise">
+    <h4>Refrain.rb</h4> 
+    <a href= https://github.com/christianzam/Refrain/blob/master/lib/refrain.rb target="_blank">
+      <%= image_tag("refrain_rb.png", :class => "card-exercise-pictures", alt: "upload") %>
+    </a>
+    <p class="aside-text">Ruby file coded specifically to understand how the order 
+      arguments are called in a method can often be a source of errors.
+    </p> 
+  </div>
 </div>
 <script>
   function stretchingWords() {
     document.querySelector('stretch-animation') 
   }
+</script>
+<script>
+  function startTime() {
+    var today = new Date();   
+    var date = today.getUTCDate();
+    var month = today.getUTCMonth() + 1; // here getUTCMonth() returns month from 0-11 not 1-12
+    var year = today.getUTCFullYear();
+    var h = today.getHours();
+    var m = today.getMinutes();
+    var s = today.getSeconds();
+    m = checkTime(m);
+    s = checkTime(s);
+    document.getElementById('clock').innerHTML = "AS PER TODAY " + date + "/" + "0" + month + "/" + year + " " + "at" + " " + h + ":" + m + ":" + s;
+    var t = setTimeout(startTime, 500);
+  }
+    function checkTime(i) {
+      if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+      return i;
+    }
+  startTime();
 </script>
