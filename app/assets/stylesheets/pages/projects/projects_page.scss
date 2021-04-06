@@ -74,6 +74,87 @@ arrows-projects {
     cursor: pointer;      
   }
 }
+//-------------------------GIANTARABANI--------------------------
+
+@media (max-width:1920px) {
+  .gtb-title {
+    font-family: $titles;
+    font-size: 50px;
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+@media (max-width:1024px) {
+  .gtb-title {
+    font-family: $titles;
+    font-size: 40px;
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+@media (max-width:768px) {
+  .gtb-title {
+    font-family: $titles;
+    font-size: 30px;
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+@media (max-width:480px) {
+  .gtb-title {
+    font-family: $titles;
+    font-size: 25px;
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+@media (max-width:320px) {
+  .gtb-title {
+    font-family: $titles;
+    font-size: 15px;
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+@media (max-width:200px) {
+  .gtb-title {
+    font-family: $titles;
+    font-size: 10px;
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+  #gtb-h2 {
+    text-align: right;
+  }
+
+  #gtb-text {
+    text-align: justify;
+  }
+
+  .gtb_logo {
+    width: 15%;
+    height: 15%;
+    margin-right: 5%;
+    margin-top: 2.5%;
+    //margin-left: 5%;
+  }
+
+  .gtb-pic {
+    width: 100%;
+    height: auto;
+    &:hover{
+      transition-duration: 0.3s;
+      transform: scale(1.05);
+      box-shadow: 0 0 15px rgba(0,0,0,0.7);
+    }
+  }
 
 //-------------------------Middle Content Grid--------------------
 .box {
