@@ -132,7 +132,18 @@
     </footer>
   </main> <!--=== GRID ===--> 
 </div> <!--=== BOX ===-->
-
+<%# -----------------------------INSTGRAM FEED-------------------------------------- %>
+<section class="container">
+  <div class="row">
+    <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+      <div>
+        <h2>Instagram feed</h2>
+      </div>
+      <div id="instafeed"></div>
+    </div>
+  </div>        
+</section>
+<%# -----------------------------Mr.Cocktail-------------------------------------- %>
 <div class="container"> 
   <div class="card-exercise">
     <h4> Mr.Cocktail </h4> 
@@ -188,4 +199,17 @@
       return i;
     }
   startTime();
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/instafeed.js@2.0.0/dist/instafeed.min.js"></script>
+<script type="text/javascript">
+    var feed = new Instafeed({
+      get: 'user',
+      target: 'instafeed',
+      resolution: 'low_resolution',
+      limit: 5,
+      accessToken: 'IGQVJVUUNxRFlDZAVpBeXZANMHpQSG9BX1UzdDk4UWwyMXJfelBvWWFYcHVSekpQRmljV0JnTnRCNTA4T3Q4alFKUGdBTHVkUHROXzZArSzd0b2VKUS0wMHc3MUJ1ZAVpqNUN3aGpSanR6QWFaeGdqaHBlMgZDZD',
+      userId:'4784537585'
+    });
+    feed.run();
 </script>
