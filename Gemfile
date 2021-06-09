@@ -24,6 +24,7 @@ gem 'dotenv-rails', groups: [:development, :test]
 gem 'font-awesome-sass', '~> 5.6.1'
 gem 'mail_form'
 gem 'simple_form'
+gem 'instafeed'
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
 # gem 'bcrypt', '~> 3.1.7'

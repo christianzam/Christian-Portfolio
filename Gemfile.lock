@@ -97,6 +97,7 @@ GEM
       activesupport (>= 4.2.0)
     i18n (1.8.7)
       concurrent-ruby (~> 1.0)
+    instafeed (0.1.0)
     jbuilder (2.10.1)
       activesupport (>= 5.0.0)
     listen (3.4.0)
@@ -237,6 +238,7 @@ DEPENDENCIES
   dotenv-rails
   font-awesome-sass (~> 5.6.1)
   foreman
+  instafeed
   jbuilder (~> 2.7)
   listen (~> 3.2)
   mail_form
@@ -258,4 +260,4 @@ RUBY VERSION
    ruby 2.6.6p146
 
 BUNDLED WITH
-   2.1.4
+   2.2.11
