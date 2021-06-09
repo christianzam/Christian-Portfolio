@@ -74,91 +74,6 @@ arrows-projects {
     cursor: pointer;      
   }
 }
-//-------------------------GIANTARABANI--------------------------
-
-@media (max-width:1920px) {
-  .gtb-title {
-    font-family: $titles;
-    font-size: 50px;
-    display: flex;
-    justify-content: flex-end;
-  }
-}
-
-@media (max-width:1024px) {
-  .gtb-title {
-    font-family: $titles;
-    font-size: 40px;
-    display: flex;
-    justify-content: flex-end;
-  }
-}
-
-@media (max-width:768px) {
-  .gtb-title {
-    font-family: $titles;
-    font-size: 30px;
-    display: flex;
-    justify-content: flex-end;
-  }
-}
-
-@media (max-width:480px) {
-  .gtb-title {
-    font-family: $titles;
-    font-size: 25px;
-    display: flex;
-    justify-content: flex-end;
-  }   #gtb-h2 {
-    font-size: 15px;
-  }
-}
-
-@media (max-width:320px) {
-  .gtb-title {
-    font-family: $titles;
-    font-size: 15px;
-    display: flex;
-    justify-content: flex-end;
-  }   #gtb-h2 {
-    font-size: 10px;
-  }
-}
-
-@media (max-width:200px) {
-  .gtb-title {
-    font-family: $titles;
-    font-size: 10px;
-    display: flex;
-    justify-content: flex-end;
-  }
-}
-
-  #gtb-h2 {
-    text-align: right;
-  }
-
-  #gtb-text {
-    text-align: justify;
-  }
-
-  .gtb_logo {
-    width: 15%;
-    height: 15%;
-    margin-right: 5%;
-    margin-top: 2.5%;
-    //margin-left: 5%;
-  }
-
-  .gtb-pic {
-    width: 100%;
-    height: auto;
-    &:hover{
-      transition-duration: 0.3s;
-      transform: scale(1.05);
-      box-shadow: 0 0 15px rgba(0,0,0,0.7);
-    }
-  }
 
 //-------------------------Middle Content Grid--------------------
 .box {
@@ -253,6 +168,217 @@ p {
     font-size: 13px;
   }
 }
+
+//-------------------------GIANTARABANI--------------------------
+
+@media (max-width:1920px) {
+  .gtb-title {
+    font-family: $titles;
+    font-size: 50px;
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+@media (max-width:1024px) {
+  .gtb-title {
+    font-family: $titles;
+    font-size: 40px;
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+@media (max-width:768px) {
+  .gtb-title {
+    font-family: $titles;
+    font-size: 30px;
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+@media (max-width:480px) {
+  .gtb-title {
+    font-family: $titles;
+    font-size: 25px;
+    display: flex;
+    justify-content: flex-end;
+  }   #gtb-h2 {
+    font-size: 15px;
+  }
+}
+
+@media (max-width:320px) {
+  .gtb-title {
+    font-family: $titles;
+    font-size: 15px;
+    display: flex;
+    justify-content: flex-end;
+  }   #gtb-h2 {
+    font-size: 10px;
+  }
+}
+
+@media (max-width:200px) {
+  .gtb-title {
+    font-family: $titles;
+    font-size: 10px;
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+  #gtb-h2 {
+    text-align: right;
+  }
+
+  #gtb-text {
+    text-align: justify;
+  }
+
+  .gtb_logo {
+    width: 15%;
+    height: 15%;
+    margin-right: 5%;
+    margin-top: 2.5%;
+    //margin-left: 5%;
+  }
+
+  .gtb-pic {
+    width: 100%;
+    height: auto;
+    &:hover{
+      transition-duration: 0.3s;
+      transform: scale(1.05);
+      box-shadow: 0 0 15px rgba(0,0,0,0.7);
+    }
+  }
+//---------------------------- Instafeed-----------------
+
+@media (max-width:1920px) {
+  .insta-title {
+    font-family: $titles;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+  }
+}
+
+@media (max-width:1024px) {
+  .insta-title {
+    font-family: $titles;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+  }
+}
+
+@media (max-width:768px) {
+  .insta-title {
+    font-family: $titles;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+  }
+}
+
+@media (max-width:480px) {
+  .insta-title {
+    font-family: $titles;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+  }  
+}
+
+@media (max-width:320px) {
+  .insta-title {
+    font-family: $titles;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+  }
+}
+
+@media (max-width:200px) {
+  .insta-title {
+    font-family: $titles;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+  }
+}
+
+.gallery {
+  line-height:0;
+  -webkit-column-count:5; 
+  -webkit-column-gap:10px; 
+  -moz-column-count:5;
+  -moz-column-gap:5px;
+  column-count:5;
+  column-gap:10px;
+  padding-left: 5%;
+  padding-right: 5%;
+  
+}
+
+.gallery img {
+  width: 100% !important;
+  height: auto !important;
+  margin-bottom:20px;
+  // filter: opacity(60%);
+  &:hover {
+    transition-duration: 0.3s;
+    transform: scale(1.02);
+    box-shadow: 0 0 10px rgba(0,0,0,0.7);
+    cursor: pointer;   
+  }
+}
+
+@media (max-width: 1200px) {
+  .gallery {
+   -moz-column-count:    4;
+   -webkit-column-count: 4;
+   column-count:         4;
+  }
+}
+
+@media (max-width: 1000px) {
+  .gallery {
+   -moz-column-count:    3;
+   -webkit-column-count: 3;
+   column-count:         3;
+  }
+}
+
+@media (max-width: 800px) {
+  .gallery {
+   -moz-column-count:    2;
+   -webkit-column-count: 2;
+   column-count:         2;
+  }
+}
+
+@media (max-width: 400px) {
+  .gallery {
+   -moz-column-count:    1;
+   -webkit-column-count: 1;
+   column-count:         1;
+  }
+}
+
+.gallery img:hover {
+  // filter:none;
+  // filter: opacity(60%);
+}
+
 //---------------------------chinampa--------------------------------------
 @media (max-width:1920px) {
   chinampa-title {
@@ -315,15 +441,21 @@ p {
   }
 
   .my-chinampa-pic {
-    width: 100%;
+    width: 70%;
     height: auto;
     box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    margin-top: 2%;
     &:hover{
       transition-duration: 0.3s;
       transform: scale(1.05);
       box-shadow: 0 0 15px rgba(0,0,0,0.7);
     }
   }
+
 //-----------------------Sportix---------------------------------
 @media (max-width:1920px) {
   .sportix-title {
@@ -391,25 +523,93 @@ p {
 }
 
 .sportix-pic {
-  width: 100%;
+  width: 70%;
   height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5%;
+  margin-top: 2%;
   &:hover{
     transition-duration: 0.3s;
     transform: scale(1.05);
     box-shadow: 0 0 15px rgba(0,0,0,0.7);
+
   }
 }
 
 #sportix-text {
   text-align: justify;
 }
+//------------------------small projects title------------------
+
+@media (max-width:1920px) {
+  .small-projects-title {
+    font-family: $titles;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+  }
+}
+
+@media (max-width:1024px) {
+  .small-projects-title {
+    font-family: $titles;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+  }
+}
+
+@media (max-width:768px) {
+  .small-projects-title {
+    font-family: $titles;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+  }
+}
+
+@media (max-width:480px) {
+  .small-projects-title {
+    font-family: $titles;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+  }  
+}
+
+@media (max-width:320px) {
+  .small-projects-title {
+    font-family: $titles;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+  }
+}
+
+@media (max-width:200px) {
+  .small-projects-title {
+    font-family: $titles;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+  }
+}
+
 //-----------------------container exercises---------------------
 .container { 
   display: grid; 
   grid-gap: 5em;
   grid-template-columns: repeat(auto-fit, minmax(100px, 2fr));
   grid-template-rows: repeat(auto-fit, minmax(100px, 2fr));
-  padding-top: 10%;
+  padding-top: 5%;
   height: auto;
   min-height: 100vh !important;
 }
@@ -425,70 +625,4 @@ p {
     transform: scale(1.05);
     box-shadow: 0 0 15px rgba(0,0,0,0.7);
   }
-}
-
-//---------------------------- Instafeed-----------------
-
-
-.gallery {
-  line-height:0;
-  -webkit-column-count:5; 
-  -webkit-column-gap:10px; 
-  -moz-column-count:5;
-  -moz-column-gap:5px;
-  column-count:5;
-  column-gap:10px;
-  padding-left: 10%;
-  padding-right: 10%;
-  
-}
-
-.gallery img {
-  width: 100% !important;
-  height: auto !important;
-  margin-bottom:20px; /* to match column gap */
-  // filter: opacity(60%);
-  &:hover {
-    transition-duration: 0.3s;
-    transform: scale(1.02);
-    box-shadow: 0 0 10px rgba(0,0,0,0.7);
-    cursor: pointer;   
-  }
-}
-
-@media (max-width: 1200px) {
-  .gallery {
-   -moz-column-count:    4;
-   -webkit-column-count: 4;
-   column-count:         4;
-  }
-}
-
-@media (max-width: 1000px) {
-  .gallery {
-   -moz-column-count:    3;
-   -webkit-column-count: 3;
-   column-count:         3;
-  }
-}
-
-@media (max-width: 800px) {
-  .gallery {
-   -moz-column-count:    2;
-   -webkit-column-count: 2;
-   column-count:         2;
-  }
-}
-
-@media (max-width: 400px) {
-  .gallery {
-   -moz-column-count:    1;
-   -webkit-column-count: 1;
-   column-count:         1;
-  }
-}
-
-.gallery img:hover {
-  // filter:none;
-  // filter: opacity(60%);
 }

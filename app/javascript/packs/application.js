@@ -1,6 +1,6 @@
 // This file is automatically compiled by Webpack, along with any other files
 // present in this directory.
-// require ("../instafeed")
+require ("instafeed")
 require("@rails/ujs").start()
 require("turbolinks").start()
 require("@rails/activestorage").start()
@@ -12,10 +12,12 @@ import 'bootstrap';
 
 //import { showDate} from "../components/show_date";
 import { initUpdateNavbarOnScroll } from '../components/navbar';
+import { initInstaFeed } from '../components/instafeed';
 
 document.addEventListener('turbolinks:load', () => {
   //showDate();
   initUpdateNavbarOnScroll();
+  initInstaFeed();
 });
 
 // Uncomment to copy all static images under ../images to the output folder and reference
