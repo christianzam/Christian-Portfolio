@@ -623,12 +623,14 @@ const initInstaFeed = () => {
     return success;
   }; 
 
+  const instaToken = process.env.INSTA_TOKEN;
+
   var feed = new Instafeed({
     get: 'user',
     target: 'instafeed',
     resolution: 'low_resolution',
     limit: 10,
-    accessToken: 'IGQVJVUUNxRFlDZAVpBeXZANMHpQSG9BX1UzdDk4UWwyMXJfelBvWWFYcHVSekpQRmljV0JnTnRCNTA4T3Q4alFKUGdBTHVkUHROXzZArSzd0b2VKUS0wMHc3MUJ1ZAVpqNUN3aGpSanR6QWFaeGdqaHBlMgZDZD',
+    accessToken: instaToken,
     userId:'4784537585'
   });
   feed.run();
