@@ -169,6 +169,88 @@ p {
   }
 }
 
+//-------------------------CRYPTO-APP----------------------------
+
+//-------------------------GIANTARABANI--------------------------
+
+@media (max-width:1920px) {
+  .crypto-title {
+    font-family: $titles;
+    font-size: 50px;
+    display: flex;
+    justify-content: flex-start;
+  }
+}
+
+@media (max-width:1024px) {
+  .crypto-title {
+    font-family: $titles;
+    font-size: 40px;
+    display: flex;
+    justify-content: flex-start;
+  }
+}
+
+@media (max-width:768px) {
+  .crypto-title {
+    font-family: $titles;
+    font-size: 30px;
+    display: flex;
+    justify-content: flex-start;
+  }
+}
+
+@media (max-width:480px) {
+  .crypto-title {
+    font-family: $titles;
+    font-size: 25px;
+    display: flex;
+    justify-content: flex-start;
+  }   #crypto-h2 {
+    font-size: 15px;
+  }
+}
+
+@media (max-width:320px) {
+  .crypto-title {
+    font-family: $titles;
+    font-size: 15px;
+    display: flex;
+    justify-content: flex-start;
+  }   #crypto-h2 {
+    font-size: 10px;
+  }
+}
+
+@media (max-width:200px) {
+  .crypto-title {
+    font-family: $titles;
+    font-size: 10px;
+    display: flex;
+    justify-content: flex-start;
+  }
+}
+
+  #crypto-h2 {
+    text-align: left;
+  }
+
+  #crypto-text {
+    padding-right: 5px;
+    text-align: justify;
+  }
+
+
+  .crypto-pic {
+    width: 100%;
+    height: auto;
+    &:hover{
+      transition-duration: 0.3s;
+      transform: scale(1.05);
+      box-shadow: 0 0 15px rgba(0,0,0,0.7);
+    }
+  }
+
 //-------------------------GIANTARABANI--------------------------
 
 @media (max-width:1920px) {
